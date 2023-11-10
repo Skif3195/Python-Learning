@@ -4,11 +4,11 @@
 
 Раздел в разработке и в скоре будет наполнен. Сейчас Ссылки на пробные файлы.
 
-- [Python Zen](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%201.md)
+- [Python Zen](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Zen%20Python.md)
 
-- [Урок 1 - Ввод - Вывод данных](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%202.md)
+- [Урок 1 - Ввод - Вывод данных](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%201%20-%20Ввод%20-%20Вывод%20данных.md)
 
-- [Урок 2 - Переменные](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%203.md)
+- [Урок 2 - Переменные](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%202%20-%20Переменные.md)
 
 - [Урок 3 - Условный оператор if-else](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%203%20-%20Условный%20оператор%20if-else.md)
 
