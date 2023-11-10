@@ -12,7 +12,7 @@
 
 - [Урок 3 - Условный оператор if-else](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%203%20-%20Условный%20оператор%20if-else.md)
 
--[Урок 4 - Типы данных](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%204%20-%20Типы%20данных.md)
+- [Урок 4 - Типы данных](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%204%20-%20Типы%20данных.md)
 
 -[Урок 5 - Цикл For](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%205%20-%20Цикл%20For.md)
 
