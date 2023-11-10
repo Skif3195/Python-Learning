@@ -6,6 +6,6 @@
 
 - [Урок 1. Работа с репозиториями через терминал Windows](https://github.com/Skif3195/Python-Learning/blob/Guides/Git/Урок%201.md)
 
--[Урок 2](https://github.com/Skif3195/Python-Learning/blob/Guides/Git/Урок%202.md)
+-[Урок 2 - СКОРО](https://github.com/Skif3195/Python-Learning/blob/Guides/Git/Урок%202.md)
 
--[Урок 3](https://github.com/Skif3195/Python-Learning/blob/Guides/Git/Урок%203.md)
+-[Урок 3 - СКОРО](https://github.com/Skif3195/Python-Learning/blob/Guides/Git/Урок%203.md)
