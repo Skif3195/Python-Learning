@@ -16,7 +16,7 @@
 
 - [Урок 5 - Цикл For](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%205%20-%20Цикл%20For.md)
 
--[Урок 6 - Цикл While](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%206%20-%20Цикл%20While.md)
+- [Урок 6 - Цикл While](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%206%20-%20Цикл%20While.md)
 
 - [Шпаргалка №1 - Нахождение цифры числа](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№1%20-%20Нахождение%20цифры%20числа.md)
 
