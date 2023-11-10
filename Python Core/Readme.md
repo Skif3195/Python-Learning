@@ -18,6 +18,6 @@
 
 -[Урок 6 - Цикл While](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%206%20-%20Цикл%20While.md)
 
-- [Шпоргалка №1 - Нахождение цифры числа](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпоргалка%20№1%20-%20Нахождение%20цифры%20числа.md)
+- [Шпаргалка №1 - Нахождение цифры числа](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпоргалка%20№1%20-%20Нахождение%20цифры%20числа.md)
 
-- [Шпоргалка №2 - Типы коллекций Python](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпоргалка%20№1%20-Типы%20коллекций%20Python.md)
+- [Шпаргалка №2 - Типы коллекций Python](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпоргалка%20№1%20-Типы%20коллекций%20Python.md)
