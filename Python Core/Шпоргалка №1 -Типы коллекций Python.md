@@ -1,0 +1,7 @@
+# [Шпоргалка №2 -Типы коллекций Python]
+
+### Строки - Тип [ str ] -> my_str = 'a, b, c'
+### Списки - Тип [ list ] -> my_list = [a, b, c]
+### Кортежи - Тип [ tuple ] -> my_tupl = (a, b, c)
+### Словари - Тип [ dict ] -> my_dict = {one:1, two:2, three:3}
+### Множества - Тип [set] -> my_set = {a, b, c}
