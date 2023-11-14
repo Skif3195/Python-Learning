@@ -18,24 +18,27 @@
 
 - [Урок 6 - Цикл While](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%206%20-%20Цикл%20While.md)
 
-- [Урок 7 - Строки]()
+-[Урок 7 - Строки](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%207%20-%20Строки.md)
 
-- [Урок 8 - Списки]()
+-[Урок 8 - Списки](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%208%20-%20Списки.md)
 
-- [Урок 9 - Кортежи]()
+-[Урок 9 - Кортежи](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%209%20-%20Кортежи.md)
 
-- [Урок 10 - Словари]()
+-[Урок 10 - Словари](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%2010%20-%20Словари.md)
 
-- [Урок 11 - Множества]()
+-[Урок 11 - Множества](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%2011%20-%20Множества.md)
+
+-[Урок 11 - Матрицы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%2011%20-%20Матрицы.md)
 
 - [Шпаргалка №1 - Нахождение цифры числа](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№1%20-%20Нахождение%20цифры%20числа.md)
 
 - [Шпаргалка №2 - Типы коллекций Python](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№1%20-Типы%20коллекций%20Python.md)
 
-- [Шпаргалка №3 - Методы Строк]()
 
-- [Шпаргалка №4 - Методы Списков]()
+-[Шпаргалка №3 - Методы Строк](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№3%20-%20Методы%20Строк.md)
 
-- [Шпаргалка №5 - Методы Словарей]()
+-[Шпаргалка №4 - Методы Списков](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№4%20-%20Методы%20Списков.md)
 
-- [Шпаргалка №6 - Методы Множеств]()
+-[Шпаргалка №5 - Методы Словарей](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№5%20-%20Методы%20Словарей.md)
+
+-[Шпаргалка №6 - Методы Множеств](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№6%20-%20Методы%20Множеств.md)
