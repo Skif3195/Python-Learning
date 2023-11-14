@@ -6,29 +6,54 @@
 
 - [Python Zen](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Zen%20Python.md)
 
-- [Урок 1 - Ввод - Вывод данных](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%201%20-%20Ввод%20-%20Вывод%20данных.md)
+- [Тема 1 - Ввод - Вывод данных](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%201%20-%20Ввод%20-%20Вывод%20данных.md)
 
-- [Урок 2 - Переменные и операторы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%202%20-%20Переменные%20и%20операторы.md)
+- [Тема 2 - Переменные и операторы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%202%20-%20Переменные%20и%20операторы.md)
 
-- [Урок 3 - Условный оператор if-else](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%203%20-%20Условный%20оператор%20if-else.md)
+- [Тема 3 - Условный оператор if-else](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%203%20-%20Условный%20оператор%20if-else.md)
 
-- [Урок 4 - Типы данных](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%204%20-%20Типы%20данных.md)
+- [Тема 4 - Типы данных](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%204%20-%20Типы%20данных.md)
 
-- [Урок 5 - Цикл For](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%205%20-%20Цикл%20For.md)
+- [Тема 5 - Цикл For](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%205%20-%20Цикл%20For.md)
 
-- [Урок 6 - Цикл While](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%206%20-%20Цикл%20While.md)
+- [Тема 6 - Цикл While](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%206%20-%20Цикл%20While.md)
 
--[Урок 7 - Строки](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%207%20-%20Строки.md)
+-[Тема 7 - Строки](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%207%20-%20Строки.md)
 
--[Урок 8 - Списки](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%208%20-%20Списки.md)
+-[Тема 8 - Списки](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%208%20-%20Списки.md)
 
--[Урок 9 - Кортежи](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%209%20-%20Кортежи.md)
+-[Тема 9 - Кортежи](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%209%20-%20Кортежи.md)
 
--[Урок 10 - Словари](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%2010%20-%20Словари.md)
+-[Тема 10 - Словари](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%2010%20-%20Словари.md)
 
--[Урок 11 - Множества](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%2011%20-%20Множества.md)
+-[Тема 11 - Множества](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%2011%20-%20Множества.md)
 
--[Урок 11 - Матрицы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%2011%20-%20Матрицы.md)
+-[Тема 11 - Матрицы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%2011%20-%20Матрицы.md)
+
+-[Тема 12 - Модуль math](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%2012%20-%20Модуль%20math.md)
+
+-[Тема 13 - Модуль random ](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%2013%20-%20Модуль%20random.md)
+
+-[Тема 14 - Модуль string](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%2014%20-%20Модуль%20string.md)
+
+-[Тема 15 - Модуль fractions](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%2015%20-%20Модуль%20fractions.md)
+
+-[Тема 16 - Модуль decimal](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%2016%20-%20Модуль%20decimal.md)
+
+-[Тема 17 - Модуль Turtle](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%2017%20-%20Модуль%20Turtle.md)
+
+-[Тема 18 - Модуль operator](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%2018%20-%20Модуль%20operator.md)
+
+-[Тема 19 - Модуль datetime](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Урок%2019%20-%20Модуль%20datetime.md)
+
+-[Тема 20 - Форматирование даты и времени](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2020%20-%20Форматирование%20даты%20и%20времени.md)
+
+-[Тема 21 - Модуль time](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2021%20-%20Модуль%20time.md)
+
+-[Тема 22 - Время работы программы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2022%20-%20Время%20работы%20программы.md)
+
+-[Тема 23 - Модуль calendar](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2023%20-%20Модуль%20calendar.md)
+
 
 - [Шпаргалка №1 - Нахождение цифры числа](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№1%20-%20Нахождение%20цифры%20числа.md)
 
@@ -42,3 +67,13 @@
 -[Шпаргалка №5 - Методы Словарей](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№5%20-%20Методы%20Словарей.md)
 
 -[Шпаргалка №6 - Методы Множеств](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№6%20-%20Методы%20Множеств.md)
+
+-[Шпаргалка №7 - Функции модуля math](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№7%20-%20Функции%20модуля%20math.md)
+
+-[Шпаргалка №8 - Функции модуля datetime](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№8%20-%20Функции%20модуля%20datetime.md)
+
+-[Шпаргалка №9 - Таблица форматирования даты/времени](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№9%20-%20Таблица%20форматирования%20даты/времени.md)
+
+-[Шпаргалка №10 - Функции модуля time](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№10%20-%20Функции%20модуля%20time.md)
+
+-[Шпаргалка №11 - Функции модуля calendar](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№11%20-%20Функции%20модуля%20calendar.md)
