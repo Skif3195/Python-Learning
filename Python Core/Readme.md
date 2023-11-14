@@ -57,7 +57,7 @@
 
 - [Шпаргалка №1 - Нахождение цифры числа](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№1%20-%20Нахождение%20цифры%20числа.md)
 
-- [Шпаргалка №2 - Типы коллекций Python](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№1%20-Типы%20коллекций%20Python.md)
+- [Шпаргалка №2 - Типы коллекций Python](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№2%20-Типы%20коллекций%20Python.md)
 
 
 -[Шпаргалка №3 - Методы Строк](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№3%20-%20Методы%20Строк.md)
@@ -72,7 +72,7 @@
 
 -[Шпаргалка №8 - Функции модуля datetime](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№8%20-%20Функции%20модуля%20datetime.md)
 
--[Шпаргалка №9 - Таблица форматирования даты/времени](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№9%20-%20Таблица%20форматирования%20даты/времени.md)
+-[Шпаргалка №9 - Таблица форматирования даты/времени](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№9%20-%20Таблица%20форматирования%20даты%20и%20времени.md)
 
 -[Шпаргалка №10 - Функции модуля time](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№10%20-%20Функции%20модуля%20time.md)
 
