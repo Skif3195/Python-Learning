@@ -18,7 +18,7 @@
 
 - [Тема 6 - Цикл While](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%206%20-%20Цикл%20While.md)
 
--[Тема 7 - Строки](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%207%20-%20Строки.md)
+- [Тема 7 - Строки](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%207%20-%20Строки.md)
 
 -[Тема 8 - Списки](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%208%20-%20Списки.md)
 
