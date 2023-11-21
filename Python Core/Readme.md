@@ -58,7 +58,7 @@
 
 - [Шпаргалка №2 - Типы коллекций Python](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№2%20-Типы%20коллекций%20Python.md)
 
--[Шпаргалка №3 - Методы Строк](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№3%20-%20Методы%20Строк.md)
+- [Шпаргалка №3 - Методы Строк](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№3%20-%20Методы%20Строк.md)
 
 -[Шпаргалка №4 - Методы Списков](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№4%20-%20Методы%20Списков.md)
 
