@@ -20,7 +20,7 @@
 
 - [Тема 7 - Строки](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%207%20-%20Строки.md)
 
--[Тема 8 - Списки](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%208%20-%20Списки.md)
+- [Тема 8 - Списки](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%208%20-%20Списки.md)
 
 -[Тема 9 - Кортежи](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%209%20-%20Кортежи.md)
 
@@ -60,7 +60,7 @@
 
 - [Шпаргалка №3 - Методы Строк](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№3%20-%20Методы%20Строк.md)
 
--[Шпаргалка №4 - Методы Списков](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№4%20-%20Методы%20Списков.md)
+- [Шпаргалка №4 - Методы Списков](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№4%20-%20Методы%20Списков.md)
 
 -[Шпаргалка №5 - Методы Словарей](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№5%20-%20Методы%20Словарей.md)
 
