@@ -24,7 +24,7 @@
 
 - [Тема 9 - Кортежи](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%209%20-%20Кортежи.md)
 
--[Тема 10 - Словари](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2010%20-%20Словари.md)
+- [Тема 10 - Словари](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2010%20-%20Словари.md)
 
 -[Тема 11 - Матрицы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2011%20-%20Матрицы.md)
 
