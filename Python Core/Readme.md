@@ -62,7 +62,7 @@
 
 - [Шпаргалка №4 - Методы Списков](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№4%20-%20Методы%20Списков.md)
 
--[Шпаргалка №5 - Методы Словарей](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№5%20-%20Методы%20Словарей.md)
+- [Шпаргалка №5 - Методы Словарей](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№5%20-%20Методы%20Словарей.md)
 
 -[Шпаргалка №6 - Методы Множеств](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№6%20-%20Методы%20Множеств.md)
 
