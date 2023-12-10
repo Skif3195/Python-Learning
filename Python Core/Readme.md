@@ -26,7 +26,7 @@
 
 - [Тема 10 - Словари](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2010%20-%20Словари.md)
 
--[Тема 11 - Матрицы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2011%20-%20Матрицы.md)
+- [Тема 11 - Матрицы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2011%20-%20Матрицы.md)
 
 -[Тема 12 - Множества](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2012%20-%20Множества.md)
 
