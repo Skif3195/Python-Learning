@@ -54,6 +54,9 @@
 
 -[Тема 24 - Модуль calendar](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2024%20-%20Модуль%20calendar.md)
 
+<details>
+<summary>Шпаргалки</summary>  
+
 - [Шпаргалка №1 - Нахождение цифры числа](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№1%20-%20Нахождение%20цифры%20числа.md)
 
 - [Шпаргалка №2 - Типы коллекций Python](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№2%20-Типы%20коллекций%20Python.md)
@@ -63,6 +66,8 @@
 - [Шпаргалка №4 - Методы Списков](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№4%20-%20Методы%20Списков.md)
 
 - [Шпаргалка №5 - Методы Словарей](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№5%20-%20Методы%20Словарей.md)
+
+- [Шпаргалка №6 - Матрицы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№6%20-%20Матрицы.md)
 
 -[Шпаргалка №6 - Методы Множеств](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№6%20-%20Методы%20Множеств.md)
 
@@ -75,3 +80,4 @@
 -[Шпаргалка №10 - Функции модуля time](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№10%20-%20Функции%20модуля%20time.md)
 
 -[Шпаргалка №11 - Функции модуля calendar](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№11%20-%20Функции%20модуля%20calendar.md)
+<details>
