@@ -69,7 +69,7 @@
 
 - [Шпаргалка №6 - Матрицы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№6%20-%20Матрицы.md)
 
--[Шпаргалка №6 - Методы Множеств](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№6%20-%20Методы%20Множеств.md)
+- [Шпаргалка №6 - Методы Множеств](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№6%20-%20Методы%20Множеств.md)
 
 -[Шпаргалка №7 - Функции модуля math](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№7%20-%20Функции%20модуля%20math.md)
 
