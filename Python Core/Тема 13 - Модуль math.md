@@ -27,10 +27,10 @@ x = pow(5, 2)           # 25.0
 ## Основные функции модуля `[math]`
 <details>
    <summary>Основные функции модуля math</summary>
- - 1) `[math.ceil(x)]`- 
+
+ ### 1) `[]` 
 ```
-f
+fggf
 ```
-#
 
 </details>
