@@ -26,7 +26,7 @@ x = pow(5, 2)           # 25.0
 #
 ## Основные функции модуля `[math]`
 <details>
-  ## <summary>Функции math</summary>
+   <summary>Основные функции модуля math</summary>
   
   - Пункт 1
   - Пункт 2
