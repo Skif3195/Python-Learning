@@ -22,7 +22,7 @@ from fractions import Fraction
 
 frac = Fraction(3, 4)
 
-# Получаем числитель
+#Получаем числитель
 numerator_value = frac.numerator
 
 print(numerator_value)  # Вывод: 3
