@@ -32,7 +32,7 @@
 
 - [Тема 13 - Модуль math](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2013%20-%20Модуль%20math.md)
 
--[Тема 14 - Модуль random ](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2014%20-%20Модуль%20random.md)
+- [Тема 14 - Модуль random ](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2014%20-%20Модуль%20random.md)
 
 -[Тема 15 - Модуль string](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2015%20-%20Модуль%20string.md)
 
