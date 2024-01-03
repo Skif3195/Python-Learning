@@ -24,7 +24,7 @@ n = Fraction(3, 4)   # 3/4
 #
  ### 1) `[numerator()]` - возвращает числитель дроби (числа fractions).  
 ```
- from fractions import Fraction
+from fractions import Fraction
 
 frac = Fraction(3, 4)
 
