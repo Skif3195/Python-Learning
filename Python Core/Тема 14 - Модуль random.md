@@ -10,37 +10,38 @@
 ## Основные функции модуля `[random]`
 <details>
   <summary>Основные функции модуля random</summary>  
-### Функции модуля `[random]` возвращают списки
+### Функции модуля `[random]` возвращают списки  
+ 
 #
- ### 1) `[random.randint()]` - 
-```
-```
-#
- ### 2) `[random.randrange()]` - 
+ ### 1) `[random.randint()]` -   
 ```
 ```
 #
- ### 3) `[random.random()]` - 
+ ### 2) `[random.randrange()]` -   
 ```
 ```
 #
- ### 4) `[random.uniform()]` - 
+ ### 3) `[random.random()]` -     
 ```
 ```
 #
- ### 5) `[random.seed()]` - 
+ ### 4) `[random.uniform()]` -   
 ```
 ```
 #
- ### 6) `[random.shuffle()]` - 
+ ### 5) `[random.seed()]` -   
 ```
 ```
 #
- ### 7) `[random.uniform]` - 
+ ### 6) `[random.shuffle()]` -   
 ```
 ```
 #
- ### 8) `[random.sample()]` - 
+ ### 7) `[random.uniform]` -   
+```
+```
+#
+ ### 8) `[random.sample()]` -   
 ```
 ```
   
