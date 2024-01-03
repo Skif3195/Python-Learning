@@ -10,23 +10,41 @@
 ## Основные функции модуля `[random]`
 <details>
   <summary>Основные функции модуля random</summary>  
+
+ 
 - Функции модуля `[random]` возвращают списки    
  
 #
- ### 1) `[random.randint()]` -   
+ ### 1) `[random.randint(a, b)]` - Возвращает случайное целое число включительно в диапазоне от a до b.  
 ```
-```
-#
- ### 2) `[random.randrange()]` -   
-```
-```
-#
- ### 3) `[random.random()]` -     
-```
+import random
+
+result = random.randint(1, 10)  # Случайное целое число от 1 до 10
+print(result)
 ```
 #
- ### 4) `[random.uniform()]` -   
+ ### 2) `[random.randrange(start, stop, step=1)]` - Возвращает случайное целое число из диапазона, начиная с start, заканчивая stop (не включительно), с шагом step.  
 ```
+import random
+
+result = random.randrange(1, 10, 2)  # Случайное нечетное число от 1 до 9
+print(result)
+```
+#
+ ### 3) `[random.random()]` - Возвращает случайное число с плавающей запятой в диапазоне от 0.0 (включительно) до 1.0 (не включительно).   
+```
+import random
+
+result = random.random()  # Случайное число от 0.0 до 1.0
+print(result)
+```
+#
+ ### 4) `[random.uniform(a, b)]` - Возвращает случайное число с плавающей запятой в диапазоне от a до b (включительно).  
+```
+import random
+
+result = random.uniform(2.5, 5.5)  # Случайное число от 2.5 до 5.5
+print(result)
 ```
 #
  ### 5) `[random.seed()]` -   
