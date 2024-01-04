@@ -38,7 +38,7 @@
 
 - [Тема 16 - Модуль fractions](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2016%20-%20Модуль%20fractions.md)
 
--[Тема 17 - Модуль decimal](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2017%20-%20Модуль%20decimal.md)
+- [Тема 17 - Модуль decimal](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2017%20-%20Модуль%20decimal.md)
 
 -[Тема 18 - Модуль Turtle](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2018%20-%20Модуль%20Turtle.md)
 
