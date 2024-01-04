@@ -98,8 +98,7 @@ decimal_number = Decimal('1.2344999999999999307220832633902318775653839111328125
 rounded_number = decimal_number.quantize(Decimal('0.0001'), rounding=ROUND_HALF_UP)
 
 # Выводим округленное число
-print(rounded_number)
-
+print(rounded_number)       # 1.2345
 ```
 
 </details>
