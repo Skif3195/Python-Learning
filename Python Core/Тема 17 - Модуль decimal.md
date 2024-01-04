@@ -22,8 +22,12 @@ n =  Decimal('10.75')
 ## Функции и мметоды модуля `[decimal]`
 
 <details>
-  <summary>Основные методы класса Fraction</summary>
+  <summary>Основные методы класса decimal</summary>
 
+
+<details>
+  <summary>Изменение контекста</summary>
+ 
 #
 ### 1) `[Decimal().as_tuple()]` - метод, который возвращает кортеж, представляющий децимальное число в виде трех элементов: 
  - `[sign]` - Знак числа (0 - положительное, 1 - отрицательное)
@@ -46,6 +50,27 @@ print("Цифры:", decimal_tuple.digits)          # Цифры: (1, 2, 3, 4, 5
 print("Экспонента:", decimal_tuple.exponent)   # Экспонента: -3
 ```
 #
-### 2) `[Decimal().getcontext()]` - 
+### 2) `[getcontext()]` - функция модуля decimal, предоставляющая доступ к текущему контексту (настройкам) числа `[Decimal()]`
+#
+### 3) `[Decimal(num).quantize()]` - метод округления числа `[Decimal()]`
+
+</details>
+
+<details>
+  <summary>Константы округления</summary>
+
+#
+### 1) `[ROUND_CELLING]` - 
+#
+### 2) `[ROUND_FLOOR]` - 
+#
+### 3) `[ROUND_DAWN]` -
+#
+### 4) `[ROUND_HALF_EVEN]` - 
+#
+### 2) `[ROUND_HALF_DAWN]` - 
+#
+### 3) `[ROUND_UP]` -
+  </details>
 
 </details>
