@@ -28,8 +28,21 @@ result = reduce(operator.mul, numbers)
 <details>
   <summary>Основные функции модуля toperator</summary> 
 
-1) `[ ]`  2. `[ ]`
-2) 
+1) `[ add(a, b) -> a + b ]`         2. `[ pos(a) -> +a]`
+3) `[ sub(a, b) -> a - b]`          4. `[ lt(a, b) -> a < b]`
+5) `[ mul(a, b) -> a * b]`          6. `[ le(a, b) -> a <= b]`
+7) `[ truediv(a, b) -> a / b]`      8. `[ gt(a, b) -> a > b]`
+9) `[ floordiv(a, b) -> a // b]`   10. `[ ge(a, b) -> a >= b]`
+11) `[ mod(a, b) -> a % b]`        12. `[ eq(a, b) -> a == b]`
+13) `[ pow(a, b) -> a ** b]`       14. `[ ne(a, b) -> a != b]`
+15) `[ neg(a) -> -a]`              16. `[ true(obj)]` -> проверка объекта на True
+#
+17) `[ ]`   18.`[ ]`
+#
+19) `[ ]`   20. `[ ]`
+21) `[ ]`   22. `[ ]`
+23) `[ ]`   24. `[ ]`
+25) `[ ]`   
 
 </details>
 
