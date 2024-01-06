@@ -9,6 +9,7 @@ from fractions import Fraction
 
 n = Fraction(3, 4)   # 3/4
 ```
+ - `[as]` - ключевое слово, используется для установки псевдонима модуля или функции. `[from fractions import Fraction as Frac]`.
 #
 - Числа `[fractions]` стоит создавать из целых чисел (int) или из строк (str)
 - Для чисел `[fractions]` доступны:
