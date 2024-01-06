@@ -40,9 +40,9 @@
 
 - [Тема 17 - Модуль decimal](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2017%20-%20Модуль%20decimal.md)
 
--[Тема 18 - Модуль Turtle](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2018%20-%20Модуль%20Turtle.md)
+- [Тема 18 - Модуль Turtle](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2018%20-%20Модуль%20Turtle.md)
 
--[Тема 19 - Модуль operator](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2019%20-%20Модуль%20operator.md)
+- [Тема 19 - Модуль operator](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2019%20-%20Модуль%20operator.md)
 
 -[Тема 20 - Модуль datetime](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2020%20-%20Модуль%20datetime.md)
 
