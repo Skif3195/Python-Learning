@@ -10,7 +10,7 @@
 #
 ## Основные методы модуля `[turtle]`
 <details>
-  <summary>Основные функции модуля turtle</summary> 
+  <summary>Основные методы модуля turtle</summary> 
 
 #
 <details>
