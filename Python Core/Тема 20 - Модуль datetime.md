@@ -154,8 +154,9 @@ print(date1)   # 1992-10-06
 print(date2)   # 1995-10-06
 print(date3)   # 1992-12-17
 ```
-#
 </details>
+
+#
 
 </details>
 
