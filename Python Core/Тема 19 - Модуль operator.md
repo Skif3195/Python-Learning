@@ -27,7 +27,8 @@ result = reduce(operator.mul, numbers)
 ## Основные функции модуля `[operator]`
 <details>
   <summary>Основные функции модуля toperator</summary> 
-
+ 
+```
 1) `[ add(a, b) -> a + b ]`         2. `[ pos(a) -> +a]`
 3) `[ sub(a, b) -> a - b]`          4. `[ lt(a, b) -> a < b]`
 5) `[ mul(a, b) -> a * b]`          6. `[ le(a, b) -> a <= b]`
@@ -43,7 +44,7 @@ result = reduce(operator.mul, numbers)
 21) `[ ]`   22. `[ ]`
 23) `[ ]`   24. `[ ]`
 25) `[ ]`   
-
+```
 </details>
 
 
