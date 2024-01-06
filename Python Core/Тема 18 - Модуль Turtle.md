@@ -11,7 +11,7 @@
 <details>
   <summary>Основные функции модуля turtle</summary> 
 
-details>
+<details>
   <summary>Подготовка к работе</summary> 
   
 #
