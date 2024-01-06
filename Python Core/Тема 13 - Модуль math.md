@@ -23,6 +23,7 @@ from math import *
 # Возводиv 5 в стеень 2 
 x = pow(5, 2)           # 25.0
 ```
+4) `[as]` - ключевое слово, используется для установки псевдонима модуля или функции. `[import math as m]` или `[from math import factorial as fact]`
 #
 ## Основные функции модуля `[math]`
 <details>
