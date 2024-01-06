@@ -15,28 +15,28 @@
  4) `[as]` - ключевое слово, используется для установки псевдонима модуля или функции. `[import datetime as dt]` или `[from datetime import time as t]`
 #
 <details>
-  <summary>date</summary> 
+  <summary>Класс date</summary> 
  
 </details>
 
 #
 
 <details>
-  <summary>time</summary> 
+  <summary>Класс time</summary> 
  
 </details>
 
 #
 
 <details>
-  <summary>datetime</summary> 
+  <summary>Класс datetime</summary> 
  
 </details>
 
 #
 
 <details>
-  <summary>timedelta</summary> 
+  <summary>Класс timedelta</summary> 
  
 </details>
 
