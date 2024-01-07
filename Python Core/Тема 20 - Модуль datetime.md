@@ -417,6 +417,39 @@ my_datetime = datetime.fromtimestamp(timestamp_value)
 # Выводим результат
 print("Datetime из временной метки:", my_datetime)   # Datetime из временной метки: 2022-01-07 15:50:00
 ```
+#
+### 6) `[datetime.strptime('str', 'format')]` - метод класса datetime, преобразует строку в объект datetime с использованием заданного формата.
+```
+from datetime import datetime
+
+# Пример строки
+date_string = '07/01/2024'
+
+# Задаем формат строки
+format_string = '%d/%m/%Y'
+
+# Преобразуем строку в datetime
+converted_datetime = datetime.strptime(date_string, format_string)
+
+# Выводим результат
+print("Преобразованный datetime:", converted_datetime)   # Преобразованный datetime: 2024-01-07 00:00:00
+print(type(converted_datetime))                          # <class 'datetime.datetime'>
+```
+#
+### 6) `[my_datetime.strftime('formate')]` - метод объекта datetime, форматирует объект datetime в строку в соответствии с заданным форматом.
+```
+from datetime import datetime
+
+# Создаем объект datetime
+my_datetime = datetime(2024, 1, 7, 14, 30, 0)
+
+# Форматируем datetime в строку
+formatted_string = my_datetime.strftime('%Y-%m-%d %H:%M:%S')
+
+# Выводим результат
+print("Форматированная строка:", formatted_string)   # Форматированная строка: 2024-01-07 14:30:00
+print(type(formatted_string))                        # <class 'str'>
+```
 
 </details>
 
@@ -436,6 +469,70 @@ print("Datetime из временной метки:", my_datetime)   # Datetime 
 
 <details>
   <summary>Класс timedelta</summary> 
+
+# 
+### `[timedelta]` - класс модуля `[datetime]` является вспомогательным инструментом для работы с арифметикой между объектами datetime. Он позволяет вычислять разницу между двумя датами и выполнять арифметические операции с временными интервалами.  
+
+Основные задачи timedelta включают в себя:
+   - Вычисление разницы между двумя датами или временными метками. `(datetime - datetime = timedelta)`
+   - Арифметические операции с временными интервалами, такие как сложение и вычитание. `(datetime + timedelta = datetime)`
+#
+- Cинтаксис:
+```
+timedelta(weeks=0, days=0, hours=0, minutes=0, seconds=0, milliseconds=0, microseconds=0)
+```
+#
+### Особенности:
+
+- Под капотом `[timedelta]` оперирует информацией в формате дни/секунды/микросекунды. Такой формат представления времени более понятен для компьютера.
+- На вывод `[timedelta]` выдаёт информацию в формате дни, часы, минуты, секунды, микросекунды. Такой формат легче читать и понимать, что упрощает работу с временными интервалами в коде.
+- `[timedelta]` использует именные аргументы (`timedelta(weeks=0, days=0, hours=0, minutes=0, seconds=0, milliseconds=0, microseconds=0)`)
+- Допустима работа с отдельными атрибутами (`days, seconds, microseconds`)
+
+- `[timedelta]` поддерживает математические операции:
+   - Сложение и вычитание объектов `[timedelta]` между собой
+   - Умножение и деление объектов `[timedelta]` на число
+   - Деление `[timedelta]` на `[timedelta]`
+   - Сложение (+) и вычитание (-) из объектов datetime, date и time (используя соответствующие атрибуты)
+
+- `[timedelta]` можно сравнивать между собой (`==, !=, <, >, <=, >=`)
+#
+### `[my_timedelta.total_seconds()]` - возвращает общее кол-во секунд в объекте `[timedelta]`
+#
+- У типа `[timedelta]` нет атрибутов `hours` и `minutes`, позволяющих получить количество часов и минут соответственно. Достать часы и минуты можно вручную:
+```
+from datetime import datetime, timedelta
+
+# Создадим объект timedelta
+delta = timedelta(days=7, seconds=125, minutes=10, hours=8, weeks=2)
+
+# Что бы получить часы, Выведем секунды из объекта timedelta и разделим на цело на 3600
+total_hours = delta.seconds // 3600
+print(total_hours)   # 8
+
+# Что бы получить минуты, Выведем секунды из объекта timedelta и разделим на цело на 60 и разделим по модулю на 60
+total_minutes = (delta.seconds //60) % 60
+print(total_minutes)   # 12
+```
+
+
+</details>
+
+#
+
+
+
+
+
+
+
+
+
+
+#
+
+<details>
+  <summary>Форматирование даты и времени</summary> 
  
 </details>
 
