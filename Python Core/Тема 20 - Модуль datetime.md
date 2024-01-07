@@ -334,37 +334,103 @@ print(type(my_datetime))   # <class 'datetime.datetime'>
 #
 ### `[datetime]` - наследует атрибуты и методы класса `[date]`
 #
-### 1) `[datetime.now()]` - 
+### 1) `[datetime.now()]` - это метод, который возвращает объект datetime, представляющий текущую локальную дату и время.
 ```
+from datetime import datetime
 
+# Получаем текущую дату и время
+current_datetime = datetime.now()
+
+# Выводим результат
+print("Текущая дата и время:", current_datetime)
 ```
 #
-### 1) `[datetime.combaine(date, time)]` - 
+### 2) `[datetime.combaine(date, time)]` - создаёт объект datetime из двух объектов - даты (date) и времени (time).
 ```
+from datetime import datetime, date, time
 
+# Создаем объекты date и time
+my_date = date(2024, 1, 7)
+my_time = time(14, 30, 0)
+
+# Создаем новый объект datetime, объединив date и time
+my_datetime = datetime.combine(my_date, my_time)
+
+# Выводим результат
+print("Объединенный datetime:", my_datetime)   # Объединенный datetime: 2024-01-07 14:30:00
 ```
 #
-### 1) `[my_datetime.date()]` - 
+### 3) `[my_datetime.date()]` - это метод объекта datetime, который возвращает объект date, представляющий только дату (год, месяц, день) без времени.
 ```
+from datetime import datetime
 
+# Создаем объект datetime
+my_datetime = datetime(2024, 1, 7, 14, 30, 0)
+
+# Получаем только дату
+date_only = my_datetime.date()
+
+# Выводим результат
+print("Дата только:", date_only)   # Дата только: 2024-01-07
+print(type(date_only))             # <class 'datetime.date'>
 ```
 #
-### 1) `[my_datetime.time()]` - 
+### 4) `[my_datetime.time()]` - это метод объекта datetime, который возвращает объект time, представляющий только время (часы, минуты, секунды, микросекунды) без даты.
 ```
+from datetime import datetime
 
+# Создаем объект datetime
+my_datetime = datetime(2024, 1, 7, 14, 30, 0)
+
+# Получаем только время
+time_only = my_datetime.time()
+
+# Выводим результат
+print("Время только:", time_only)   # Время только: 14:30:00
+print(type(time_only))              # <class 'datetime.time'>
 ```
 #
-### 1) `[my_datetime.timestamp()]` - 
+### 5) `[my_datetime.timestamp()]` - это метод объекта datetime, который возвращает количество секунд с начала эпохи (1 января 1970 года) до указанного момента времени.
 ```
+from datetime import datetime
 
+# Создаем объект datetime
+my_datetime = datetime(2024, 1, 7, 14, 30, 0)
+
+# Получаем временную метку (timestamp)
+timestamp_value = my_datetime.timestamp()
+
+# Выводим результат
+print("Кол-во секунд с начала эпохи:", timestamp_value)   # Кол-во секунд с начала эпохи: 1704601800.0
 ```
 #
-### 1) `[my_datetime.fromtimestamp()]` - 
+### 6) `[my_datetime.fromtimestamp()]` - создает объект datetime из переданной временной метки (timestamp), представляющей количество секунд с начала эпохи (1 января 1970 года).
 ```
+from datetime import datetime
 
+# Пример временной метки
+timestamp_value = 1641534600
+
+# Создаем объект datetime из временной метки
+my_datetime = datetime.fromtimestamp(timestamp_value)
+
+# Выводим результат
+print("Datetime из временной метки:", my_datetime)   # Datetime из временной метки: 2022-01-07 15:50:00
 ```
 
 </details>
+
+#
+
+</details>
+
+
+
+
+
+
+
+
 
 #
 
