@@ -73,7 +73,7 @@
 
 - [Шпаргалка №7 - Функции модуля math](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№7%20-%20Функции%20модуля%20math.md)
 
--[Шпаргалка №8 - Функции модуля datetime](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№8%20-%20Функции%20модуля%20datetime.md)
+- [Шпаргалка №8 - Функции модуля datetime](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№8%20-%20Функции%20модуля%20datetime.md)
 
 -[Шпаргалка №9 - Функции модуля time](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№10%20-%20Функции%20модуля%20time.md)
 
