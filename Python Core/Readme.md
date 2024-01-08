@@ -48,7 +48,7 @@
 
 -[Тема 21 - Модуль time](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2021%20-%20Модуль%20time.md)
 
--[Тема 22 - Форматирование даты и времени](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2022%20-%20Форматирование%20даты%20и%20времени.md)
+- [Тема 22 - Форматирование даты и времени](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2022%20-%20Форматирование%20даты%20и%20времени.md)
 
 -[Тема 23 - Время работы программы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2023%20-%20Время%20работы%20программы.md)
 
@@ -75,9 +75,7 @@
 
 -[Шпаргалка №8 - Функции модуля datetime](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№8%20-%20Функции%20модуля%20datetime.md)
 
--[Шпаргалка №9 - Таблица форматирования даты/времени](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№9%20-%20Таблица%20форматирования%20даты%20и%20времени.md)
+-[Шпаргалка №9 - Функции модуля time](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№10%20-%20Функции%20модуля%20time.md)
 
--[Шпаргалка №10 - Функции модуля time](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№10%20-%20Функции%20модуля%20time.md)
-
--[Шпаргалка №11 - Функции модуля calendar](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№11%20-%20Функции%20модуля%20calendar.md)
+-[Шпаргалка №10 - Функции модуля calendar](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№11%20-%20Функции%20модуля%20calendar.md)
 
