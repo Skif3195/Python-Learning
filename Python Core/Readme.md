@@ -50,7 +50,7 @@
 
 - [Тема 22 - Форматирование даты и времени](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2022%20-%20Форматирование%20даты%20и%20времени.md)
 
--[Тема 23 - Время работы программы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2023%20-%20Время%20работы%20программы.md)
+- [Тема 23 - Время работы программы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2023%20-%20Время%20работы%20программы.md)
 
 -[Тема 24 - Модуль calendar](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2024%20-%20Модуль%20calendar.md)
 
