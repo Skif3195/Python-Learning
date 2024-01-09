@@ -77,7 +77,7 @@
 
 - [Шпаргалка №9 - Таблица форматирования даты/времени](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№9%20-%20Таблица%20форматирования%20даты%20и%20времени.md)
 
--[Шпаргалка №10 - Функции модуля time](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№10%20-%20Функции%20модуля%20time.md)
+- [Шпаргалка №10 - Функции модуля time](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№10%20-%20Функции%20модуля%20time.md)
 
 -[Шпаргалка №11 - Функции модуля calendar](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№11%20-%20Функции%20модуля%20calendar.md)
 
