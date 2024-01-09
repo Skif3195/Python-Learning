@@ -46,7 +46,7 @@
 
 - [Тема 20 - Модуль datetime](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2020%20-%20Модуль%20datetime.md)
 
--[Тема 21 - Модуль time](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2021%20-%20Модуль%20time.md)
+- [Тема 21 - Модуль time](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2021%20-%20Модуль%20time.md)
 
 - [Тема 22 - Форматирование даты и времени](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2022%20-%20Форматирование%20даты%20и%20времени.md)
 
