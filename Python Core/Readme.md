@@ -30,6 +30,9 @@
 
 - [Тема 12 - Множества](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2012%20-%20Множества.md)
 
+<details>
+<summary>Модули стандартной библиотеки Python</summary>  
+
 - [Тема 13 - Модуль math](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2013%20-%20Модуль%20math.md)
 
 - [Тема 14 - Модуль random ](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2014%20-%20Модуль%20random.md)
@@ -53,6 +56,8 @@
 - [Тема 23 - Время работы программы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2023%20-%20Время%20работы%20программы.md)
 
 -[Тема 24 - Модуль calendar](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2024%20-%20Модуль%20calendar.md)
+
+</details>
 
 <details>
 <summary>Шпаргалки</summary>  
