@@ -92,6 +92,24 @@ seconds_since_epoch = time.mktime(current_time_struct)
 print(f"Текущее время в секундах с начала эпохи: {seconds_since_epoch}")
 print(type(seconds_since_epoch))   # <class 'float'>
 ```
+#
+#
+#
+   - 5 ) `[time.strftime()]` - принимает строку с некоторым [набором правил для форматирования](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№9%20-%20Таблица%20форматирования%20даты%20и%20времени.md) и объект struct_time (или соответствующий кортеж) в качестве аргументов и возвращает строку с датой в зависимости от использованного формата.
+```
+import time
+
+time_obj = time.localtime()
+result = time.strftime('%d.%m.%Y, %H:%M:%S', time_obj)
+
+print(result)         # Текущее время в str: 09.01.2024, 20:37:20
+print(type(result))   # <class 'str'>
+```
+#
+   - 6 ) `[time.strptime()]` -
+```
+
+```
 </details>
 
 <details>
