@@ -106,9 +106,15 @@ print(result)         # Текущее время в str: 09.01.2024, 20:37:20
 print(type(result))   # <class 'str'>
 ```
 #
-   - 6 ) `[time.strptime()]` -
+   - 6 ) `[time.strptime()]` - делает разбор строки в зависимости от использованного [формата](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№9%20-%20Таблица%20форматирования%20даты%20и%20времени.md) и возвращает объект struct_time.
 ```
+import time
 
+time_string = '1 September, 2021'
+result = time.strptime(time_string, '%d %B, %Y')
+
+print(result)         # time.struct_time(tm_year=2021, tm_mon=9, tm_mday=1, tm_hour=0, tm_min=0, tm_sec=0, tm_wday=2, tm_yday=244, tm_isdst=-1)
+print(type(result))   # <class 'time.struct_time'>
 ```
 </details>
 
@@ -116,23 +122,35 @@ print(type(result))   # <class 'str'>
   <summary>Функции time</summary> 
 
 #
-   - 1 ) `[time.time()]`
+   - 1 ) `[time.time()]` - возвращает текущее время в секундах с начала эпохи (1 января 1970 года) в виде числа с плавающей точкой.
 ```
+import time
 
+seconds = time.time()    # получаем количество прошедших секунд в виде float числа
 ```
 #
-   - 2 ) `[time.time_ns()]`
+   - 2 ) `[time.time_ns()]` - возвращает текущее время в наносекундах с начала эпохи (1 января 1970 года) в виде целого числа. Эта функция доступна начиная с Python 3.7.
 ```
+import time
 
+current_time_ns = time.time_ns()
 ```
 #
-   - 3 ) `[time.ctime()]`
+   - 3 ) `[time.ctime()]` - возвращает текущее местное время в виде строки `[str]` с удобочитаемым форматом. 
 ```
+import time
 
+current_time_str = time.ctime()
+
+print(current_time_str)   # Mon Jan  8 12:30:45 2024
 ```
 #
-   - 4 ) `[time.sleep(n)]`
+   - 4 ) `[time.sleep(n)]` - приостанавливает выполнение программы на n секунд. Эта функция полезна, когда необходимо добавить задержку в выполнение кода.
+     
+        - Аргумент n - количество секунд, на которое следует приостановить выполнение.
 ```
-
+print("Начало выполнения")
+time.sleep(3)  # Приостановка выполнения на 3 секунды
+print("Прошло 3 секунды")
 ```
 </details>
