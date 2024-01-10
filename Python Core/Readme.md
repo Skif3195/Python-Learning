@@ -60,6 +60,48 @@
 </details>
 
 <details>
+<summary>Функции</summary> 
+
+-[Тема 25 - Функции](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2025%20-%20Функции.md)
+
+-[Тема 26 - Аргументы Функций](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2026%20-%20Аргументы%20Функций.md)
+
+-[Тема 27 - Функция map()](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2027%20-%20Функция%20map().md)
+
+-[Тема 28 - Функция filter()](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2028%20-%20Функция%20filter().md)
+
+-[Тема 29 - Функция reduce()](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2029%20-%20Функция%20reduce().md)
+
+-[Тема 30 - Совместное использование функций map(), filter() и reduce()](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2030%20-%20Совместное%20использование%20функций%20map(),%20filter()%20и%20reduce().md)
+
+-[Тема 31 - Анонимные lambda функции](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2031%20-%20Анонимные%20lambda%20функции.md)
+
+-[Тема 32 - Функция zip()](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2032%20-%20Функция%20zip().md)
+
+-[Тема 33 - Функции all() и any()](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2033%20-%20Функции%20all()%20и%20any().md)
+
+-[Тема 34 - Функция enumerate()](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2034%20-%20Функция%20enumerate().md)
+
+-[Тема 35 - Прочие встроенные функции](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2035%20-%20Прочие%20встроенные%20функции.md)
+
+</details>
+
+<details>
+<summary>Работа с файлами</summary>  
+
+-[Тема 36 - Введение]()
+
+-[Тема 37 - Открытие/Закрытие файла]()
+
+-[Тема 38 - Чтение и запись файла]()
+
+-[Тема 39 - Файловые методы]()
+
+-[Тема 36 - ]()
+
+</details>
+
+<details>
 <summary>Шпаргалки</summary>  
 
 - [Шпаргалка №1 - Нахождение цифры числа](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№1%20-%20Нахождение%20цифры%20числа.md)
@@ -85,4 +127,24 @@
 - [Шпаргалка №10 - Функции модуля time](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№10%20-%20Функции%20модуля%20time.md)
 
 -[Шпаргалка №11 - Функции модуля calendar](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№11%20-%20Функции%20модуля%20calendar.md)
+
+-[Тема  - ]()
+
+-[Тема  - ]()
+
+-[Тема  - ]()
+
+-[Тема  - ]()
+
+-[Тема  - ]()
+
+-[Тема  - ]()
+
+-[Тема  - ]()
+
+-[Тема  - ]()
+
+-[Тема  - ]()
+
+-[Тема  - ]()
 
