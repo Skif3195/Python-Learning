@@ -89,15 +89,13 @@
 <details>
 <summary>Работа с файлами</summary>  
 
--[Тема 36 - Введение]()
+-[Тема 36 - Введение](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2036%20-%20Работа%20с%20файлами%20-%20Введение.md)
 
--[Тема 37 - Открытие/Закрытие файла]()
+-[Тема 37 - Открытие/Закрытие файла](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/%20Тема%2037%20-%20Открытие-Закрытие%20файла.md)
 
--[Тема 38 - Чтение и запись файла]()
+-[Тема 38 - Чтение и запись файла](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2038%20-%20Чтение%20и%20запись%20файла.md)
 
--[Тема 39 - Файловые методы]()
-
--[Тема 36 - ]()
+-[Тема 39 - Файловые методы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2039%20-%20Файловые%20методы.md)
 
 </details>
 
