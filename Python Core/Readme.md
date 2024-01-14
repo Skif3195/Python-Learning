@@ -55,7 +55,7 @@
 
 - [Тема 23 - Время работы программы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2023%20-%20Время%20работы%20программы.md)
 
--[Тема 24 - Модуль calendar](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2024%20-%20Модуль%20calendar.md)
+- [Тема 24 - Модуль calendar](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2024%20-%20Модуль%20calendar.md)
 
 </details>
 
@@ -124,7 +124,7 @@
 
 - [Шпаргалка №10 - Функции модуля time](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№10%20-%20Функции%20модуля%20time.md)
 
--[Шпаргалка №11 - Функции модуля calendar](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№11%20-%20Функции%20модуля%20calendar.md)
+- [Шпаргалка №11 - Функции модуля calendar](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№11%20-%20Функции%20модуля%20calendar.md)
 
 -[Тема  - ]()
 
