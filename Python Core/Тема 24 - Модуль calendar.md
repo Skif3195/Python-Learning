@@ -73,6 +73,16 @@ print(calendar.SATURDAY)    # 5
 print(calendar.SUNDAY)      # 6
 ```
 #
+- Объекты, доступные по атрибутам day_name, day_abbr, month_name и month_abbr, поддерживают индексацию.
+```
+import calendar
+
+print(calendar.day_name[1])     # Tuesday
+print(calendar.day_abbr[1])     # Tue
+print(calendar.month_name[1])   # January
+print(calendar.month_abbr[1])   # Jan
+```
+#
 #
 </details>
 
