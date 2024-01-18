@@ -64,11 +64,11 @@
 <details>
 <summary>Функции</summary> 
 
--[Тема 25 - Функции](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2025%20-%20Функции.md)
+- [Тема 25 - Функции](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2025%20-%20Функции.md)
 
--[Тема 26 - Аргументы Функций](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2026%20-%20Аргументы%20Функций.md)
+- [Тема 26 - Аргументы Функций](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2026%20-%20Аргументы%20Функций.md)
 
--[Тема 27 - Функция map()](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2027%20-%20Функция%20map().md)
+- [Тема 27 - Функция map()](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2027%20-%20Функция%20map().md)
 
 -[Тема 28 - Функция filter()](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2028%20-%20Функция%20filter().md)
 
