@@ -57,7 +57,7 @@
 
 - [Тема 24 - Модуль calendar](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2024%20-%20Модуль%20calendar.md)
 
-- -[Тема  - Модули dateutil и arrow]()
+- -[Тема None - Дополнительные модули](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Дополнительные%20модули.md)
 
 </details>
 
