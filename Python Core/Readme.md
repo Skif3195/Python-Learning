@@ -70,9 +70,9 @@
 
 - [Тема 27 - Функция map()](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2027%20-%20Функция%20map().md)
 
--[Тема 28 - Функция filter()](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2028%20-%20Функция%20filter().md)
+- [Тема 28 - Функция filter()](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2028%20-%20Функция%20filter().md)
 
--[Тема 29 - Функция reduce()](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2029%20-%20Функция%20reduce().md)
+- [Тема 29 - Функция reduce()](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2029%20-%20Функция%20reduce().md)
 
 -[Тема 30 - Совместное использование функций map(), filter() и reduce()](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2030%20-%20Совместное%20использование%20функций%20map(),%20filter()%20и%20reduce().md)
 
