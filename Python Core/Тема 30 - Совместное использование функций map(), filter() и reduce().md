@@ -64,7 +64,11 @@ print(result)   # [4, 8, 12, 16]
 
 #
 
-# filter() в map()
+## Примеры совместного использования функций map(), filter() и reduce()
+
+<details>
+  <summary>filter() в map()</summary> 
+  
 ```
 numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 def positive(num):
@@ -80,6 +84,21 @@ print(result)
    1) В первую очередь, срабатывает `[filter()]` - фильтрует элементы списка `[numbers]` при помощи функции `[positive()]`, оставляя только числа больше или равные 3.
    2) Затем `[map()]` работает с результатом работы `[filter()]` - удваивает каждое значение последовательности через функцию `[double()]`.
    3) Функция `[list()]` - создаёт из получившегося (в результате работы функций `[filter()]` и `[map()]`) итератора список.
+</details>
+
+#
+
+<details>
+  <summary>map() в filter()</summary> 
+  
+</details>
+
+#
+
+<details>
+  <summary>map() и filter() в reduce()</summary> 
+  
+</details>
 
 
 
