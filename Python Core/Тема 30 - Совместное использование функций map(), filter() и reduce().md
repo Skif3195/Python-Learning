@@ -79,7 +79,7 @@ def double(num):
 
 result = list(map(double, filter(positive, numbers)))
 
-print(result)
+print(result)   # [6, 8, 10, 12, 14, 16, 18]
 ```
    1) В первую очередь, срабатывает `[filter()]` - фильтрует элементы списка `[numbers]` при помощи функции `[positive()]`, оставляя только числа больше или равные 3.
    2) Затем `[map()]` работает с результатом работы `[filter()]` - удваивает каждое значение последовательности через функцию `[double()]`.
@@ -90,14 +90,50 @@ print(result)
 
 <details>
   <summary>map() в filter()</summary> 
-  
+
+```
+numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+def positive(num):
+    return num >= 3
+
+def double(num):
+    return num + num
+
+result = list(filter(positive, map(double, numbers)))
+
+print(result)   # [4, 6, 8, 10, 12, 14, 16, 18]
+```
+   1) В первую очередь, срабатывает `[map()]` - удваивает каждое значение последовательности `[numbers]` через функцию `[double()]`.
+   2) Затем `[filter()]` работает с результатом работы `[map()]` при помощи функции `[positive()]`, оставляя только числа больше или равные 3.
+   3) Функция `[list()]` - создаёт из получившегося (в результате работы функций `[filter()]` и `[map()]`) итератора список.
 </details>
 
 #
 
 <details>
   <summary>map() и filter() в reduce()</summary> 
-  
+
+```
+from functools import reduce
+
+numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+def positive(num):
+    return num >= 3
+
+def double(num):
+    return num * 2
+
+def summ(a, b):
+    return a + b
+
+result = reduce(summ, filter(positive, map(double, numbers)))
+
+print(result)   # 88
+```
+   1) В первую очередь, срабатывает `[map()]` - удваивает каждое значение последовательности `[numbers]` через функцию `[double()]`.
+   2) Затем, `[filter()]` работает с результатом работы `[map()]` при помощи функции `[positive()]`, оставляя только числа больше или равные 3.
+   3) Затем, `[reduce()]`, при помощи функции `[summ()]` - поочерёдно складывает между собой все элементы получившейся последовательности.
+
 </details>
 
 
