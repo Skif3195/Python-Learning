@@ -45,6 +45,8 @@ print(any(map(lambda x: x ** 2, my_list)))   # True
   <summary>3) Генераторы выражений (expression for item in iterable if condition)</summary> 
   
 ```
+# [i ** 2 for i in range(10) if i > -1] -> [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+
 print(all([i ** 2 for i in range(10) if i > -1]))   # False
 print(any([i ** 2 for i in range(10) if i > -1]))   # True
 ```
