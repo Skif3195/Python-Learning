@@ -14,9 +14,16 @@ print(list(enumerate(my_list)))   # [(0, '0ne'), (1, 'Two'), (2, 'Three')]
 
      - В качестве `[iterable()]` могут выступать:
  
-          1) Итерируемые объекты (str, list, tupple, dict, set)
-          2) Функции, возвращающие итераторы (map(), filter())
-          3) Генераторы выражений (expression for item in iterable if condition)
+          - Итерируемые объекты (str, list, tupple, dict, set)
+          - Функции, возвращающие итераторы (map(), filter())
+          - Генераторы выражений (expression for item in iterable if condition)
+
+#
+
+***`[enumerate()]`*** - возвращает итератор, по этому для дальнейшей работы требуется:
+
+- либо приведение типов (list(), tupple() и тд)
+- либо распаковка через цикл `[for]`
 
 
 
