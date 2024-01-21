@@ -74,17 +74,17 @@
 
 - [Тема 29 - Функция reduce()](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2029%20-%20Функция%20reduce().md)
 
--[Тема 30 - Совместное использование функций map(), filter() и reduce()](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2030%20-%20Совместное%20использование%20функций%20map(),%20filter()%20и%20reduce().md)
+- [Тема 30 - Совместное использование функций map(), filter() и reduce()](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2030%20-%20Совместное%20использование%20функций%20map(),%20filter()%20и%20reduce().md)
 
--[Тема 31 - Анонимные lambda функции](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2031%20-%20Анонимные%20lambda%20функции.md)
+- [Тема 31 - Анонимные lambda функции](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2031%20-%20Анонимные%20lambda%20функции.md)
 
--[Тема 32 - Функция zip()](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2032%20-%20Функция%20zip().md)
+- [Тема 32 - Функция zip()](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2032%20-%20Функция%20zip().md)
 
--[Тема 33 - Функции all() и any()](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2033%20-%20Функции%20all()%20и%20any().md)
+- [Тема 33 - Функции all() и any()](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2033%20-%20Функции%20all()%20и%20any().md)
 
--[Тема 34 - Функция enumerate()](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2034%20-%20Функция%20enumerate().md)
+- [Тема 34 - Функция enumerate()](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2034%20-%20Функция%20enumerate().md)
 
--[Тема 35 - Прочие встроенные функции](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2035%20-%20Прочие%20встроенные%20функции.md)
+- [Тема 35 - Прочие встроенные функции](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2035%20-%20Прочие%20встроенные%20функции.md)
 
 </details>
 
@@ -128,23 +128,23 @@
 
 - [Шпаргалка №11 - Функции модуля calendar](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№11%20-%20Функции%20модуля%20calendar.md)
 
--[Тема  - ]()
+-[Шпаргалка №12  - True/False объекты](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№12%20%20-%20True-False%20объекты.md)
 
--[Тема  - ]()
+-[Шпаргалка №  - ]()
 
--[Тема  - ]()
+-[Шпаргалка №  - ]()
 
--[Тема  - ]()
+-[Шпаргалка №  - ]()
 
--[Тема  - ]()
+-[Шпаргалка №  - ]()
 
--[Тема  - ]()
+-[Шпаргалка №  - ]()
 
--[Тема  - ]()
+-[Шпаргалка №  - ]()
 
--[Тема  - ]()
+-[Шпаргалка №  - ]()
 
--[Тема  - ]()
+-[Шпаргалка №  - ]()
 
--[Тема  - ]()
+-[Шпаргалка №  - ]()
 
