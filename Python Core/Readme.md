@@ -91,7 +91,7 @@
 <details>
 <summary>Работа с файлами</summary>  
 
--[Тема 36 - Введение](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2036%20-%20Работа%20с%20файлами%20-%20Введение.md)
+- [Тема 36 - Введение](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2036%20-%20Работа%20с%20файлами%20-%20Введение.md)
 
 -[Тема 37 - Открытие/Закрытие файла](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/%20Тема%2037%20-%20Открытие-Закрытие%20файла.md)
 
