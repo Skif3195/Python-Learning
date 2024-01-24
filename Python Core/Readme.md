@@ -86,6 +86,8 @@
 
 - [Тема 35 - Прочие встроенные функции](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2035%20-%20Прочие%20встроенные%20функции.md)
 
+- [Ключи в функциях (key)](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/null%20—%20копия%20(25).md)
+
 </details>
 
 <details>
