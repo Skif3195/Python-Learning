@@ -97,7 +97,7 @@
 
 - [Тема 37 - Открытие-Изменение-Закрытие файла](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/%20Тема%2037%20-%20Открытие-Изменение-Закрытие%20файла.md)
 
-- [Тема 38 - Потоковый ввод stdin и вывод stdout](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2038%20-%20Чтение%20и%20запись%20файла.md)
+- [Тема 38 - Потоковый ввод stdin и вывод stdout](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2038%20-%20Потоковый%20ввод%20stdin%20и%20вывод%20stdout.md)
 
 -[Тема 39 - ](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2039%20-%20Файловые%20методы.md)
 
