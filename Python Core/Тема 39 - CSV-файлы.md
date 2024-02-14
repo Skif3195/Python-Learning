@@ -164,9 +164,33 @@ with open('products.csv', 'r') as file:
 # Получится список словарей, в котором наша строка примет вид:
 # {'keywords': 'Садовый стул, стул для дачи', 'price': '1699', 'product_name': 'ВЭДДО'}
 ```
+При создании `[DictReader]` объекта значениями по умолчанию для аргументов `[delimiter]` и `[quotechar]` являются `[',']` (символ запятой) и `['"']` (символ двойной кавычки) соответственно.
+
+#
+</details>
+
+#
+
+# Запись данных
+
+<details>
+  <summary>csv.writer</summary>
+
 
 
 #
 </details>
+
+#
+
+<details>
+  <summary>csv.DictWriter</summary>
+
+
+
+#
+</details>
+
+
 
 
