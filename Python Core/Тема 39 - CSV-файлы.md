@@ -194,6 +194,18 @@ with open('products.csv', 'w') as file:
 ```
   - `[csv.writer(file, delimiter,quoting ,quotechar)]` - параметры позволяют изменить символ-разделитель и символ-кавычки.
   - Параметр `[quoting]` - указывает на то, какие значения заключать в кавычки.
+<details>
+  <summary>Параметры quoting</summary>
+     
+```
+- quoting=csv.QUOTE_ALL: указывает объектам записи указывать все поля
+- quoting=csv.QUOTE_MINIMAL: указывает объектам записи заключать в кавычки только те поля, которые содержат специальные символы, такие как разделитель delimiter, кавычка quotechar или любой из символов в lineterminator
+- quoting=csv.QUOTE_NONNUMERIC: указывает объектам записи указывать все нечисловые поля
+- quoting=csv.QUOTE_NONE: указывает объектам записи никогда не заключать в кавычки поля
+```
+#
+</details>
+
 ```
 import csv
 
