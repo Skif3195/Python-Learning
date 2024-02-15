@@ -285,6 +285,7 @@ ex_dict = {'one':'один', 'two': 'два', 'three': 'три'}
 
 with open('students.csv', 'w') as file:
     csv_dictwriter = csv.DictWriter(file, fieldnames=title, delimiter=',', quoting=csv.QUOTE_NONNUMERIC, quotechar='"')
+    csv_dictwriter.writeheader()
     csv_dictwriter.writerow(ex_dict)
 
 # Выведет строку: "один","два","три"
@@ -309,6 +310,7 @@ ex_dict = [
 
 with open('students.csv', 'w') as file:
     csv_dictwriter = csv.DictWriter(file, fieldnames=title, delimiter=',', quoting=csv.QUOTE_NONNUMERIC, quotechar='"')
+    csv_dictwriter.writeheader()
     csv_dictwriter.writerows(ex_dict)
 
 # Выведет:
