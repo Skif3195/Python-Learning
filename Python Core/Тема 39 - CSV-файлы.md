@@ -176,7 +176,33 @@ with open('products.csv', 'r') as file:
 <details>
   <summary>csv.writer</summary>
 
+- `[csv.writer]` - объект, который предоставляет методы для записи данных в CSV файл.
 
+     - Работает с файлом,открытым только в режимаф `[w]`,`[r+]` и `[a]`
+     - Записывает в файл только списки.
+     - `[csv.writer(file)]` - без параметров, записывает в файл данные в стандартном виде (разделитель - запятая `[,]`, кавычки - двойные кавычки`["]`) 
+```
+import csv
+
+# Добавляем список используя writer без параметров
+
+with open('products.csv', 'w') as file:
+    csv_writer = csv.writer(file)
+    csv_writer.writerow(['Алексей', 30, 'Программист, увлекается музыкой'])
+
+# В файл запишется строка: Алексей,30,"Программист, увлекается музыкой"
+```
+  - `[csv.writer(file, delimiter,quoting ,quotechar)]` - параметры позволяют изменить символ-разделитель и символ-кавычки.
+  - Параметр `[quoting]` - указывает на то, какие значения заключать в кавычки.
+```
+import csv
+
+with open('products.csv', 'w') as file:
+    csv_writer = csv.writer(file, delimiter='|',quoting=csv.QUOTE_NONNUMERIC ,quotechar='*')
+    csv_writer.writerow(['Алексей', 30, 'Программист, увлекается музыкой'])
+
+# В файл запишется строка: *Алексей*|30|*Программист, увлекается музыкой*
+```
 
 #
 </details>
