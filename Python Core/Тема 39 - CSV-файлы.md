@@ -288,7 +288,9 @@ with open('students.csv', 'w') as file:
     csv_dictwriter.writeheader()
     csv_dictwriter.writerow(ex_dict)
 
-# Выведет строку: "один","два","три"
+# Выведет строку: 
+"one","two","three"
+"один","два","три"
 ```
 </details>
 
