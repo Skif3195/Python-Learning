@@ -263,7 +263,61 @@ with open('products.csv', 'w') as file:
 <details>
   <summary>csv.DictWriter</summary>
 
+- `[csv.DictWriter(csvfile, fieldnames, delimiter, quoting)]` - объект, который предоставляет методы для записи данных в виде словарей в CSV файл.
 
+     - Обязательно должен быть список заголовков, который указывается в параметр `[fieldnames]`
+     - delimiter - параметр, определяющий разделитель.
+     - quoting - параметр, определяющий какие значения заключать в кавычки.
+     - quotechar - параметр, определяющий символ кавычек.
+#
+
+- `[writeheader(title)]` - метод используется для записи строки заголовка в CSV файл. Строка заголовка состоит из имен столбцов, определенных в списке fieldnames при создании объекта DictWriter.
+- `[writerow(rowdict)]` - Этот метод используется для записи одной строки данных в CSV файл. В качестве аргумента rowdict передается словарь, где ключи соответствуют именам столбцов, определенным в fieldnames, а значения представляют собой данные для записи.
+<details>
+  <summary>Пример для writerow(rowdict)</summary>
+  
+```
+import csv
+
+title = ['one', 'two', 'three']
+
+ex_dict = {'one':'один', 'two': 'два', 'three': 'три'}
+
+with open('students.csv', 'w') as file:
+    csv_dictwriter = csv.DictWriter(file, fieldnames=title, delimiter=',', quoting=csv.QUOTE_NONNUMERIC, quotechar='"')
+    csv_dictwriter.writerow(ex_dict)
+
+# Выведет строку: "один","два","три"
+```
+</details>
+
+- `[writerows(rowdicts)]` - Этот метод используется для записи нескольких строк данных в CSV файл. В качестве аргумента rowdicts передается список словарей, где каждый словарь представляет собой одну строку данных.
+
+<details>
+  <summary>Пример для writerows(rowdicts)</summary>
+  
+```
+import csv
+
+title = ['Имя', 'Возраст', 'Город']
+
+ex_dict = [
+        {'Имя': 'Алексей', 'Возраст': 30, 'Город': 'Москва'},
+        {'Имя': 'Елена', 'Возраст': 25, 'Город': 'Санкт-Петербург'},
+        {'Имя': 'Иван', 'Возраст': 35, 'Город': 'Новосибирск'}
+    ]
+
+with open('students.csv', 'w') as file:
+    csv_dictwriter = csv.DictWriter(file, fieldnames=title, delimiter=',', quoting=csv.QUOTE_NONNUMERIC, quotechar='"')
+    csv_dictwriter.writerows(ex_dict)
+
+# Выведет:
+"Алексей",30,"Москва"
+"Елена",25,"Санкт-Петербург"
+"Иван",35,"Новосибирск"
+
+```
+</details>
 
 #
 </details>
