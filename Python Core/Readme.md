@@ -132,7 +132,7 @@
 
 - [Шпаргалка №12  - True/False объекты](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№12%20%20-%20True-False%20объекты.md)
 
--[Шпаргалка №13 - Работа с файлами](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№13%20-%20Работа%20с%20файлами.md)
+- [Шпаргалка №13 - Работа с файлами](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№13%20-%20Работа%20с%20файлами.md)
 
 -[Шпаргалка №  - ]()
 
