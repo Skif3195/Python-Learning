@@ -99,7 +99,9 @@
 
 - [Тема 38 - Потоковый ввод stdin и вывод stdout](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2038%20-%20Потоковый%20ввод%20stdin%20и%20вывод%20stdout.md)
 
--[Тема 39 - CSV-файлы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2039%20-%20CSV-файлы.md)
+- [Тема 39 - CSV-файлы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2039%20-%20CSV-файлы.md)
+
+-[Тема 40 - JSON-файлы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2040%20-%20JSON-файлы.md)
 
 </details>
 
