@@ -53,3 +53,48 @@
 #
 
 </details>
+
+#
+
+<details>
+  <summary>Модуль json в Python</summary>
+
+
+
+</details>
+
+#
+
+<details>
+  <summary>Типы данных в JSON</summary>
+
+
+
+</details>
+
+#
+
+<details>
+  <summary>Изменение типов данных в JSON</summary>
+
+
+
+</details>
+
+#
+
+<details>
+  <summary>Ограничения по типам данных в JSON</summary>
+
+
+
+</details>
+
+#
+
+<details>
+  <summary>Кирилица в JSON</summary>
+
+
+
+</details>
