@@ -209,7 +209,36 @@ print(loaded_data)
 <details>
   <summary>Типы данных в JSON</summary>
 
+- json автоматически определяет тип значения при десериализации. Такая автоматическая работа с типами данных выгодно отличает json от csv, при работе с которым таких автоматических преобразований нет.
 
+```
+import json
+
+json_data = '''
+{
+   "name": "Russia",
+   "phone_code": 7,
+   "latitude": 60.0,
+   "capital": "Moscow",
+   "timezones": ["Anadyr", "Barnaul", "Moscow", "Kirov"],
+   "translations": {
+      "nl": "Rusland",
+      "hr": "Rusija",
+      "de": "Russland",
+      "es": "Rusia",
+      "fr": "Russie",
+      "it": "Russia"
+   }
+}'''
+
+data = json.loads(json_data)
+
+print(type(data['name']))          # <class 'str'>
+print(type(data['phone_code']))    # <class 'int'>
+print(type(data['latitude']))      # <class 'float'>
+print(type(data['timezones']))     # <class 'list'>
+print(type(data['translations']))  # <class 'dict'>
+```
 
 </details>
 
@@ -218,7 +247,35 @@ print(loaded_data)
 <details>
   <summary>Изменение типов данных в JSON</summary>
 
+- JSON: данные не всегда будут того же типа, что исходные данные в Python. Например, кортежи при записи в JSON превращаются в списки.
+- Так происходит из-за того, что в JSON используются другие типы данных, и не для всех типов данных Python есть соответствия.  
 
+Таблица конвертации типов данных Python в JSON:
+```
+Python	        JSON
+
+dict	         object
+list,tuple	   array
+str	           string
+int, float	   number
+True	          true
+False	         false
+None          	null
+```
+#
+Таблица конвертации JSON в типы данных Python:
+```
+JSON	           Python
+   
+object	          dict
+array	            list
+string           	 str
+number (int)	     int
+number (real)	    float
+true	            True
+false       	    False
+null	            None
+```
 
 </details>
 
@@ -227,7 +284,15 @@ print(loaded_data)
 <details>
   <summary>Ограничения по типам данных в JSON</summary>
 
+1. В формат JSON нельзя записать словарь, у которого ключи – кортежи.
+2. Строки должны быть заключены в двойные кавычки. Одиночные кавычки не являются допустимыми для обозначения строк.
+3. JSON поддерживает только числа с плавающей точкой (float) и целые числа (int). Однако они не могут быть бесконечными или неопределенными (например, Infinity, -Infinity, NaN).
+4. В JSON допустимы только два булевых значения: true и false.
+5. В JSON есть специальное значение null, которое означает отсутствие значения или пустоту. Оно чувствительно к регистру и должно быть написано строчными буквами.
+6. В массивах допустимы значения любого типа данных JSON, но они должны быть разделены запятыми.
+7. Ключи объектов должны быть строками, а значения могут быть любого типа данных JSON.  
 
+8. Типы данных JSON: Строки (str), Числа (int, float), Булевы значения (True/False), Массивы (arrwys), Null.
 
 </details>
 
