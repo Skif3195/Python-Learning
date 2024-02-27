@@ -301,6 +301,25 @@ null	            None
 <details>
   <summary>Кирилица в JSON</summary>
 
+- При записи символов кириллицы в json-строку, символы кириллицы поумолчанию будут экранированы:
+```
+import json
 
+data = {'firstName': 'Тимур', 'lastName': 'Гуев'}
+s = json.dumps(data)
+print(s)   # {"firstName": "\u0422\u0438\u043c\u0443\u0440", "lastName": "\u0413\u0443\u0435\u0432"}
+result = json.loads(s)
+print(result)   # {'firstName': 'Тимур', 'lastName': 'Гуев'}
+```
+Обратное преобразование из строки в словарь вернет закодированное значение в первоначальный вид.  
+С помощью необязательного аргумента ensure_ascii функций dumps() и dump() можно проигнорировать кодирование:
+```
+import json
 
+data = {'firstName': 'Тимур', 'lastName': 'Гуев'}
+s = json.dumps(data, ensure_ascii=False)
+print(s)        # {"firstName": "Тимур", "lastName": "Гуев"}
+result = json.loads(s)
+print(result)   # {'firstName': 'Тимур', 'lastName': 'Гуев'}
+```
 </details>
