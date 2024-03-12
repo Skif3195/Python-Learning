@@ -101,7 +101,9 @@
 
 - [Тема 39 - CSV-файлы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2039%20-%20CSV-файлы.md)
 
--[Тема 40 - JSON-файлы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2040%20-%20JSON-файлы.md)
+- [Тема 40 - JSON-файлы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2040%20-%20JSON-файлы.md)
+
+- [Тема 41 - ZIP-файлы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2041%20-%20ZIP-файлы.md)
 
 </details>
 
