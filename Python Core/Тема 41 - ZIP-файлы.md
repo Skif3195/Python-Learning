@@ -41,3 +41,8 @@
 
 
 </details>
+<details>
+  <summary>Модуль zipfile</summary>
+
+
+</details>
