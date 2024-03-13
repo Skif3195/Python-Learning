@@ -44,5 +44,26 @@
 <details>
   <summary>Модуль zipfile</summary>
 
+`[zipfile]` - модуль предоставляет инструменты для работы с ZIP-архивами. Основное преимущество данного модуля заключается в том, что он позволяет работать с архивом, как с обычной папкой, содержащей файлы и другие каталоги.
+
+- `[ZipFile(filename, mode='r', compression=ZIP_STORED, allowZip64=True)]` - это основной объект, предоставляемый модулем zipfile, который позволяет работать с zip архивами в Python.
+
+     - `[filename]`
+     - `[zipfile]`
+     - `[zipfile]`
+     - `[zipfile]`
+
+Объекты ZipFile похожи на файловые объекты, возвращаемые функцией open()
+
+```
+from zipfile import ZipFile
+
+with ZipFile('test.zip') as zip_file:
+    pass
+```
+#
+### Основные методы Модуля zipfile  
+
+1. `[printdir()]` - 
 
 </details>
