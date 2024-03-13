@@ -106,7 +106,7 @@ with ZipFile('test.zip') as zip_file:
 
 #
 
-4. `[getinfo()]` - позволяет получить информацию о конкретном файле по его имени в архиве. Возвращает итерируемый объект ZipInfo. Так же обладает атриибутами `[file_size]`, `[compress_size]`, `[filename]`, `[date_time]` и `[is_dir()]`.
+4. `[getinfo('file_name')]` - позволяет получить информацию о конкретном файле по его имени в архиве. Возвращает итерируемый объект ZipInfo. Так же обладает атриибутами `[file_size]`, `[compress_size]`, `[filename]`, `[date_time]` и `[is_dir()]`.
 ```
 from zipfile import ZipFile
 
