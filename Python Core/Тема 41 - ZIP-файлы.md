@@ -95,7 +95,7 @@ with ZipFile('test.zip') as zip_file:
 
 #
 
-3. `[namelist()]` - возвращает список названий файлов и директорий, содержащихся в архиве. Метод получает список имен файлов в архиве, и затем итерируется по этому списку, выводя каждое имя файла или директории.
+3. `[namelist()]` - возвращает список названий файлов и директорий, содержащихся в архиве. Метод получает список имен файлов в архиве, и затем итерируется по этому списку, выводя каждое имя файла или директории. Объект namelist итерируется.
 ```
 from zipfile import ZipFile
 
@@ -106,8 +106,19 @@ with ZipFile('test.zip') as zip_file:
 
 #
 
-4. `[getinfo()]` - 
+4. `[getinfo()]` - позволяет получить информацию о конкретном файле по его имени в архиве. Возвращает итерируемый объект ZipInfo. Так же обладает атриибутами `[file_size]`, `[compress_size]`, `[filename]`, `[date_time]` и `[is_dir()]`.
+```
+from zipfile import ZipFile
 
+with ZipFile('test.zip') as zip_file:
+    info = zip_file.namelist()                # получаем названия всех файлов архива
+    last_file = zip_file.getinfo(info[-4])    # получаем информацию об отдельном файле
+    print(last_file.file_size)
+    print(last_file.compress_size)
+    print(last_file.filename)
+    print(last_file.date_time)
+```
 
+При вызове метода getinfo('file1.txt') мы получаем объект zipfile.ZipInfo, который содержит всю доступную информацию о файле 'file1.txt' в архиве example.zip. Затем мы можем использовать атрибуты этого объекта, такие как filename, file_size, compress_size, date_time и другие, чтобы получить конкретную информацию о файле.
 
 </details>
