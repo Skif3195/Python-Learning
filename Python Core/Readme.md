@@ -105,6 +105,8 @@
 
 - [Тема 41 - ZIP-файлы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2041%20-%20ZIP-файлы.md)
 
+- [Тема 41 - pickle-файлы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2041%20-%20pickle-файлы.md)
+
 </details>
 
 <details>
