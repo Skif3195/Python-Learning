@@ -107,6 +107,8 @@
 
 - [Тема 41 - pickle-файлы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2041%20-%20pickle-файлы.md)
 
+- [Тема None - дополнительные модули](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%20None%20-%20дополнительные%20модули.md)
+
 </details>
 
 <details>
