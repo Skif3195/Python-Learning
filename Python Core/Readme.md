@@ -117,6 +117,14 @@
 
 - [Тема 42 - Устройство памяти в Python](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2042%20-%20Устройство%20памяти%20в%20Python.md)
 
+- [Тема 43 - ]()
+
+- [Тема 44 - ]()
+
+- [Тема 45 - ]()
+
+- [Тема 46 - ]()
+
 
 </details>
 
