@@ -119,7 +119,7 @@
 
 - [Тема 43 - Работа переменных в Python](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Работа%20переменных%20в%20Python.md)
 
-- [Тема 44 - ]()
+- [Тема 44 - Поверхностное и глубокое копирование объектов](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2044%20-%20Поверхностное%20и%20глубокое%20копирование%20объектов.md)
 
 - [Тема 45 - ]()
 
