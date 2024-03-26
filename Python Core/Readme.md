@@ -123,8 +123,15 @@
 
 - [Тема 45 - Механизмы очистки памяти](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2045%20-%20Механизмы%20очистки%20памят.md)
 
-- [Тема 46 - ]()
+- [Тема None - ]()
 
+
+</details>
+
+<details>
+<summary>Модуль collection (дополнительные типы данных)</summary>  
+
+- [Тема 46 - Именованные кортежи (namedtuple)](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2046%20-%20Именованные%20кортежи%20(namedtuple).md)
 
 </details>
 
