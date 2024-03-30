@@ -24,7 +24,7 @@
 `[namedtuple()]` - фабричная функция, предназначеная для создания именованных кортежей.
 
 <details>
-   <summary>Основные функции модуля math</summary>
+   <summary>Пример</summary>
 
 ```
 from collections import namedtuple
@@ -72,6 +72,56 @@ print(point1)                                 # Point(x=3, y=10)
    - Имена начинающиеся с _
    - Ключевые слова (if, for, else, class, ...)
 
+#
+# Атрибуты и Методы именованых кортежей
 
+ ### Атрибуты _fields и _field_defaults
 
+<details>
+   <summary>_fields</summary>
+
+`[_fields]` - Содержит кортеж, в котором перечислены имена полей.
+```
+from collections import namedtuple
+
+Pers = namedtuple('Person', ['name', 'age', 'height'])
+
+tim = Pers('Тимур', 29, 170)
+
+print(tim)              # Person(name='Тимур', age=29, height=170)
+print(tim._fields)      # ('name', 'age', 'height')
+print(Pers._fields)   # ('name', 'age', 'height')
+```
+- Обращаться к атрибуту можно как через переменную (tim) так и через тип (Pers)
+- Можно создавать новые кортежи, расширяя старые
+```
+from collections import namedtuple
+
+Pers = namedtuple('Person', ['name', 'age', 'height'])
+
+ExtendedPerson = namedtuple('ExtendedPerson', [*Pers._fields, 'weight'])  # распаковка полей старого кортежа
+
+timur = ExtendedPerson('Тимур', 29, 170, 65)
+
+print(timur)                    # ExtendedPerson(name='Тимур', age=29, height=170, weight=65)
+print(ExtendedPerson._fields)   # ('name', 'age', 'height', 'weight')
+```
+- Можно перебирать поля по их значениям через цикл for и функцию zip()
+```
+from collections import namedtuple
+
+Pers = namedtuple('Person', ['name', 'age', 'height'])
+
+timur = Pers('Тимур', 29, 170)
+
+for field, value in zip(Pers._fields, timur):
+    print(field, '->', value)
+
+###
+name -> Тимур
+age -> 29
+height -> 170
+
+```
+ <details>
  
