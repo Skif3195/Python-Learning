@@ -136,9 +136,9 @@ height -> 170
 </details>
 
 <details>
-   <summary>Метод make()</summary>
+   <summary>Метод _make()</summary>
 
-`[namedtuple.make(iter_obj)]` - создаёт именованый кортеж из итерируемого объекта, который принимает в качестве аргумента.
+`[namedtuple._make(iter_obj)]` - создаёт именованый кортеж из итерируемого объекта, который принимает в качестве аргумента.
 ```
 from collections import namedtuple
 
@@ -153,7 +153,42 @@ print(timur)   # Person(name='Timur', age=29, height=170)
 
 </details>
 
+<details>
+   <summary>Метод _asdict()</summary>
 
+`[namedtuple._asdict()]` - преобразует именованый кортеж в словарь, при передаче ему аргументов. 
+
+- Ключи = имена полей
+- значения - значения перезаные типу именованного кортежа
+```
+from collections import namedtuple
+
+Pers = namedtuple('Person', ['name', 'age', 'height'])
+
+timur = Pers._make(['Timur', 29, 170])
+
+print(timur._asdict())   # {'name': 'Timur', 'age': 29, 'height': 170}
+```
+
+</details>
+
+<details>
+   <summary>Метод _replace()</summary>
+
+`[namedtuple2._replace(namedtuple1)]` - созжаёт именованный кортеж на основании другого именованного кортежа, с заменой значений.
+```
+from collections import namedtuple
+
+Pers = namedtuple('Person', ['name', 'age', 'height', 'country'])
+
+name1 = Pers('Тимур', 29, 170, 'Russia')
+name2 = name1._replace(age=30, country='Germany')
+
+print(name1)   # Person(name='Тимур', age=29, height=170, country='Russia')
+print(name2)   # Person(name='Тимур', age=30, height=170, country='Germany')
+```
+
+</details>
 
 
 
