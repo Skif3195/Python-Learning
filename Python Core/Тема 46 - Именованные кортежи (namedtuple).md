@@ -124,7 +124,7 @@ age -> 29
 height -> 170
 
 ```
- <details>
+ </details>
 <details>
    <summary>Атрибут _field_defaults</summary>
 
@@ -134,6 +134,7 @@ height -> 170
 ```
 - Если в именованом кортеже нет полей, которые содержат значения по умолчанию, то возвращвет пустой словарь.
 </details>
+
 <details>
    <summary>Метод make()</summary>
 
