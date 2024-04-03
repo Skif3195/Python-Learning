@@ -133,6 +133,8 @@
 
 - [Тема 46 - Именованные кортежи (namedtuple)](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2046%20-%20Именованные%20кортежи%20(namedtuple).md)
 
+- [Тема 47 - defaultdict](https://github.com/Skif3195/Python-Learning/blob/Guides/Тема%2047%20-%20defaultdict.md)
+
 </details>
 
 <details>
