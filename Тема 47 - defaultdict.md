@@ -113,7 +113,61 @@ print(data['salary3'])   # 0.0
 ```
 </details>
 
-  
+# Плюсы и отличия от dict()
+
+- Позволяет избежать проверок на несуществующие словари
+- Позволяет инициализировать элементы словаря некоторым значением по умолчанию
+- Удобная группировка элементов
+- Удобная группировка уникальных элементов
+- Удобный подсчёт элементов
+- Удобное наполнение элементов значениями
+- `default dict` быстрее чем `dict`
+
+#
+
+# Группировка элементов
+
+<details>
+   <summary>Пример</summary>
+
+Типичным использованием `defaultdict` является группировка элементов. В качестве значения по умолчанию у казывается тип `list`. Далее, происходит обращение к, несуществующему в словаре, ключу `[key]` при помощи функции `append()`. Так как значения по умолчанию для ключей это списки, то ключу `[key]` присваивается значение, возвращаемое методом `append()`. 
+
+```
+from collections import defaultdict
+dd = defaultdict(list)
+dd['key'].append(1)
+print(dd)   # defaultdict(<class 'list'>, {'key': [1]})
+
+dd['key'].append(2)
+print(dd)   # defaultdict(<class 'list'>, {'key': [1, 2]})
+
+dd['key'].append(3)
+print(dd)   # defaultdict(<class 'list'>, {'key': [1, 2, 3]})
+```
+Таким образом мы можем сортировать данные по какому-то конкретному признаку. Например у нас есть список кортежей, которые хранят пары значений `(отдел, имя сотрудника)`. Привед>нный ниже код отсортирует список сотрудников и сгруппирует их по отделам:
+
+```
+from collections import defaultdict
+
+dep = [('Sales', 'John Doe'),
+       ('Sales', 'Martin Smith'),
+       ('Accounting', 'Jane Doe'),
+       ('Marketing', 'Elizabeth Smith'),
+       ('Marketing', 'Adam Doe')]
+
+dep_dd = defaultdict(list)
+for department, employee in dep:
+    dep_dd[department].append(employee)
+
+print(dep_dd)   # defaultdict(<class 'list'>, {'Sales': ['John Doe', 'Martin Smith'], 'Accounting': ['Jane Doe'], 'Marketing': ['Elizabeth Smith', 'Adam Doe']})
+
+```
+
+</details>
+
+#
+
+# Группировка уникальных элементов
 
 
 
