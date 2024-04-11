@@ -16,11 +16,36 @@
 
 - Обновить элемент можно при помощи квадратных скобок (`[my_orderdict[key] = 'value']`) или при помощи словарного метода `[update]` (`[my_dict.update({'key': 'new_value'})]`)
 
-- `[OrderDict-объект]` можно создавать теми же способами, что и `[defaultdict-объект]`:
+#
+### Способы создания OrderDict объекта
 
-     - Из любого итерируемого объекта, содержащего пары значений `my_orderdict = OrderedDict([('name', 'Timur'), ('age', 29), ('job', 'Teacher')])`
-     - Передавая создающей функции именованные аргументы `my_orderdict = OrderedDict(name='Timur', age=29, job='Teacher')`
-     - 
+1. Из любого итерируемого объекта, содержащего пары значений:
+```
+my_orderdict = OrderedDict([('name', 'Timur'), ('age', 29), ('job', 'Teacher')])
+```
+2. Передавая создающей функции именованные аргументы:
+```
+my_orderdict = OrderedDict(name='Timur', age=29, job='Teacher')
+```
+3. Используя генератор:
+```
+my_ordered_dict = OrderedDict((key, value) for key, value in [('name', 'Timur'), ('surname', 'Guev'), ('hobby', 'math')])
+```
+4. С помощью метода `[fromkeys()]`:
+```
+keys = ['name', 'surname', 'hobby']
+default_value = 'Unknown'
+my_ordered_dict = OrderedDict.fromkeys(keys, default_value)
+```
+5. Создание пустого `OrderDict-объекта`, для добавления в него переменных:
+```
+my_ordered_dict = OrderedDict()
+```
+6. С использованием функции `update()`:
+```
+my_ordered_dict = OrderedDict()
+my_ordered_dict.update({'name': 'Timur', 'surname': 'Guev', 'hobby': 'math'})
+```
 
 
 
