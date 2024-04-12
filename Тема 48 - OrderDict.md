@@ -46,7 +46,107 @@ my_ordered_dict = OrderedDict()
 my_ordered_dict = OrderedDict()
 my_ordered_dict.update({'name': 'Timur', 'surname': 'Guev', 'hobby': 'math'})
 ```
+#
+### Итерирование по объекту OrderDict
 
+1. Доступ к элементам `OrderDict-словаря` производится напрямую, при помощи словарных методов `[keys()]`, `[values()]`, `[items()]`.
+2. При итерировании по `OrderDict-объекту` допустимо использование встроенной функции `[reverced()]`:
+```
+from collections import OrderedDict
+
+numbers = OrderedDict(one=1, two=2, three=3)
+
+# перебор ключей напрямую
+for key in reversed(numbers):
+    print(key, '->', numbers[key])   # three -> 3
+                                       two -> 2
+                                       one -> 1
+
+
+# перебор пар (ключ, значение) через метод
+for key, value in reversed(numbers.items()):
+    print(key, '->', value)          # three -> 3
+                                       two -> 2
+                                       one -> 1
+
+
+# перебор ключей через метод
+for key in reversed(numbers.keys()):
+    print(key, '->', numbers[key])   # three -> 3
+                                       two -> 2
+                                       one -> 1
+
+# перебор значений через метод
+for value in reversed(numbers.values()):
+    print(value)                     # 3
+                                       2
+                                       1
+```
+#
+### Метод move_toend
+
+`[move_to_end(key, last=True)]` - метод класса `OrderDict`, используется для перемещения элемента в конец или начало словаря.
+
+   - `[key]` - ключ, который будет переноситься в начало или в конец словаря.
+   - `[last=True]` - необязательный аргумент, указывает в каком направлении переносить ключ. `True` (по умолчанию) - перенос в конец словаря, `False` - перенос в начало словаря.
+```
+from collections import OrderedDict
+
+numbers = OrderedDict(one=1, two=2, three=3)
+print(numbers)                                 # OrderedDict([('one', 1), ('two', 2), ('three', 3)])
+
+numbers.move_to_end('one')                     # last=True
+print(numbers)                                 # OrderedDict([('two', 2), ('three', 3), ('one', 1)])
+
+numbers.move_to_end('three', last=False)       # last=False
+print(numbers)                                 #OrderedDict([('three', 3), ('two', 2), ('one', 1)])
+```
+#
+### Метод popitem()
+
+`[popitem(last=True)]` - метод, удаляет и возвращает последнюю (по умолчанию) или первую пару ключ-значение из словаря OrderedDict, в зависимости от значения параметра last.
+
+   - В случае `last=True` (по умолчанию) удаляет ключ с конца словаря (принцип LIFO)
+   - В случае `last=False` удаляет ключ с начала словаря (принцип FIFO)
+```
+from collections import OrderedDict
+
+numbers = OrderedDict(one=1, two=2, three=3)
+print(numbers)               # OrderedDict({'one': 1, 'two': 2, 'three': 3})
+
+
+print(numbers.popitem())     # ('three', 3)
+print(numbers)               # OrderedDict({'one': 1, 'two': 2})
+
+print(numbers.popitem())     # ('two', 2)
+print(numbers)               # OrderedDict({'one': 1})
+```
+#
+### [OrderDict наследует все методы класса dict](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№5%20-%20Методы%20Словарей.md)
+#
+### Сравнение словарей на равенство значений
+
+- При сравнении `OrdedDict-словарей` - порядок расположения элементов важен.
+- При сравнении обычных словарей (`dict`) - порядок расположения элементов не важен.
+- при сравнении `OrderDict` и `dict` - порядок расположения элементов не важен.
+#
+### Конкатенация словарей
+Операторы `|` и `|=` производят конкатенацию как обычных словарей (`dict`) так и `OrderDict-словарей`:
+```
+from collections import OrderedDict
+
+physicists = OrderedDict(newton='1642-1726', einstein='1879-1955')
+biologists = OrderedDict(darwin='1809-1882', mendel='1822-1884')
+
+scientists = physicists | biologists
+print(scientists)   # OrderedDict({'newton': '1642-1726', 'einstein': '1879-1955', 'darwin': '1809-1882', 'mendel': '1822-1884'})
+
+physicists = OrderedDict(newton='1642-1726', einstein='1879-1955')
+physicists1 = OrderedDict(newton='1642-1726/1727', hawking='1942-2018')
+
+physicists |= physicists1
+print(physicists)   # OrderedDict({'newton': '1642-1726/1727', 'einstein': '1879-1955', 'hawking': '1942-2018'})
+```
 
 
 
