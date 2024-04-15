@@ -45,6 +45,54 @@ print(letters)   # Counter({'i': 6, 's': 6, 'p': 2, 'm': 2, 'o': 1, 'u': 1, 'r':
 - `update()` принимает любой итерируемый объект.
 - Методу `update()` можно передать словарь (`dict()`) или другой объект `Counter`
 #
+### Доступ к элементам объекта Counter  
+
+`letters = Counter('mississippi')`  
+
+1. Обращение по о ключу:
+```
+print(letters['p'])
+print(letters['i'])
+```
+2. Перебор ключей напрямую:
+```
+for letter in letters:
+    print(letter, '->', letters[letter])
+```
+3. Перебор значений через методы `keys()`, `values()`, `items()`:
+```
+# перебор ключей через метод
+for letter in letters.keys():
+    print(letter, '->', letters[letter])
+
+# перебор значений через метод
+for count in letters.values():
+    print(count)
+
+# перебор пар (ключ, значение) через метод
+for letter, count in letters.items():
+    print(letter, '->', count)
+```
+- Нельзя обратиться к ключу, которого нет в объекте `Counter`
+- Для удаления всех элементов объекта `Counter` используется метод `clear()`
+- Объекты `Counter` можно сравнивать между собой (`==`  `!=`). Порядок элементов не важен.
+- Элементы с нулевым значением воспринимаются как отсутствующие:
+```
+counter1 = Counter(i=4)
+counter2 = Counter(i=4, s=0)
+
+print(counter1 == counter2)   # True
+```
+- Значения по ключам могут иметь тип, отличный от числового, но при этом допускающий сложение (например, строки):
+```
+counter1 = Counter(i=4, s='4')
+counter2 = Counter(i=5, s='5')
+
+counter1.update(counter2)
+
+print(counter1)   # Counter({'i': 9, 's': '54'})
+```
+#
 
 
 
