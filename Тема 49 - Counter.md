@@ -27,6 +27,8 @@ print(counter2)     # Counter({'i': 4, 's': 4, 'p': 2, 'm': 1})
 #
 ### Обновление данных в объектах Counter
 
+- `Counter` наследует все [методы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№5%20-%20Методы%20Словарей.md) класса `dict` кроме метода `fromkeys()`
+
 - `Counter` можно преобразовать в обычный словарь при помощи функции `dict()`
 1. `[my_couner.update()]` - метод, для изменения объектов типа Counter.  
 
