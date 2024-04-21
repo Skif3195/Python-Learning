@@ -156,3 +156,29 @@ print(most_common_elements_asc)
 
 #
 ### Метод elements()
+
+- `[elements()]` - метод, возвращает `объект-итератор`, перечисляющий элементы в количестве, равном их счетчику в объекте Counter.
+
+     - Возвращает `объект-итератор`. Что бы увидеть содержимое, приводим к типу коллекции (функция `list()`)
+
+<details>
+  <summary>Пример использования</summary>
+
+```
+from collections import Counter
+
+# Создаем объект Counter
+counter = Counter({'a': 3, 'b': 1, 'c': 2})
+
+# Получаем итератор элементов
+elements_iterator = counter.elements()
+
+print(list(elements_iterator))   # ['a', 'a', 'a', 'b', 'c', 'c']
+```
+
+</details>
+
+
+
+
+
