@@ -113,16 +113,46 @@ most_common_elements = counter.most_common()
 # Выводим результат
 print(most_common_elements)   # [('a', 3), ('d', 3), ('c', 2), ('b', 1)]
 ```
-<details>
+</details>
 
 - `[n]` - необязательный аргумент, при указании, метод возвращает `n` самых часто-повторяемых аргументов.
 <details>
   <summary>Пример использования</summary> 
 
 ```
+from collections import Counter
+
+# Создаем объект Counter
+counter = Counter({'a': 3, 'b': 1, 'c': 2, 'd': 3})
+
+# Получаем два наиболее часто встречающихся элемента
+most_common_elements = counter.most_common(2)
+
+print(most_common_elements)   # [('a', 3), ('d', 3)]
+```
+</details>
+
+- `reversed()` - функция, которая может вернуть список кортежей, `отсортированных по увеличению количества повторений`.
+<details>
+  <summary>Пример использования</summary>
 
 ```
-<details>
+from collections import Counter
 
+# Создаем объект Counter
+counter = Counter({'a': 3, 'b': 1, 'c': 2, 'd': 3})
 
+# Получаем наиболее часто встречающиеся элементы
+# По умолчанию - по возврастанию
+most_common_elements = counter.most_common()
 
+# Разворачиваем список значений
+most_common_elements_asc = list(reversed(most_common_elements))
+
+# Выводим результат
+print(most_common_elements_asc)
+```
+</details>
+
+#
+### Метод elements()
