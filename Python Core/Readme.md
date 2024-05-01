@@ -148,6 +148,8 @@
 
 -[Тема 52 - heapq](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2052%20-%20heapq.md)
 
+- [Итог темы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Итог%20темы.md)
+
 </details>
 
 <details>
