@@ -150,6 +150,27 @@
 
 </details>
 
+-[Тема 53 - Обработка исключений](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2053%20-%20Обработка%20исключенийmd)
+
+-[Тема 54 - Рекурсия](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/null%20—%20копия%20(6).md)
+
+-[Тема 55 - Функции +](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Функции%20+.md)
+
+<details>
+<summary>Итераторы и Генераторы</summary>  
+
+-[Тема 56 - Итераторы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2056%20-%20Итераторы.md)
+
+-[Тема 57 - Генераторы]()
+
+-[Тема 58 - Модуль itertools]()
+
+</details>
+
+-[Тема 59 - Регулярные вырадения]()
+
+-[Тема 60 - Модуль re]()
+
 <details>
 <summary>Шпаргалки</summary>  
 
