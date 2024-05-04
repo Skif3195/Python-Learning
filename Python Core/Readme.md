@@ -152,7 +152,7 @@
 
 -[Тема 53 - Обработка исключений](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2053%20-%20Обработка%20исключенийmd)
 
--[Тема 54 - Рекурсия](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/null%20—%20копия%20(6).md)
+-[Тема 54 - Рекурсия](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Рекрсия.md)
 
 -[Тема 55 - Функции +](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Функции%20+.md)
 
