@@ -95,14 +95,12 @@ print(new_chainmap)   # ChainMap({'c': 3, 'd': 4}, {'a': 1, 'b': 2})
 ```
 from collections import ChainMap
 
-# Создаем ChainMap с двумя словарями
-chainmap = ChainMap({'a': 1, 'b': 2}, {'c': 3, 'd': 4})
+# Пример использования
+dict1 = {'a': 1, 'b': 2}
+dict2 = {'c': 3, 'd': 4}
 
-# Создаём новый словарь добавляя новый в начало цепочки
-new_values = ChainMap({'b': 20, 'd': 40, 'e': 5})
-
-# Выводим обновленный ChainMap
-print(new_values)   # ChainMap({'b': 20, 'd': 40, 'e': 5})
+chainmap = chainmaps(dict1, dict2)
+print(chainmap)
 ```
 </details>
 
