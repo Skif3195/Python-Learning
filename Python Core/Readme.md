@@ -109,7 +109,7 @@
 
 - [Тема None - дополнительные модули](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%20None%20-%20дополнительные%20модули.md)
 
--[Тема None -  Модуль Array]()
+-[Тема Plus -  Модуль Array](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%20Plus%20-%20%20Модуль%20Array.md)
 
 
 </details>
@@ -126,8 +126,6 @@
 
 - [Тема 45 - Механизмы очистки памяти](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2045%20-%20Механизмы%20очистки%20памят.md)
 
-- [Тема None - ]()
-
 
 </details>
 
@@ -140,11 +138,11 @@
 
 - [Тема 48 - OrderDict](https://github.com/Skif3195/Python-Learning/blob/Guides/Тема%2048%20-%20OrderDict.md)
 
--[Тема 49 - Counter](https://github.com/Skif3195/Python-Learning/blob/Guides/Тема%2049%20-%20Counter.md)
+- [Тема 49 - Counter](https://github.com/Skif3195/Python-Learning/blob/Guides/Тема%2049%20-%20Counter.md)
 
--[Тема 50 - ChainMap](https://github.com/Skif3195/Python-Learning/blob/Guides/Тема%2050%20-%20ChainMap.md)
+- [Тема 50 - ChainMap](https://github.com/Skif3195/Python-Learning/blob/Guides/Тема%2050%20-%20ChainMap.md)
 
--[Тема 51 - deque](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2051%20-%20deque.md)
+- [Тема 51 - deque](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2051%20-%20deque.md)
 
 -[Тема 52 - heapq](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2052%20-%20heapq.md)
 
