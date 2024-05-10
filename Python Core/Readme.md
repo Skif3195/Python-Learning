@@ -150,7 +150,7 @@
 
 </details>
 
--[Тема 53 - Обработка исключений](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2056%20-%20Итераторы.md))
+-[Тема 53 - Обработка исключений](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2056%20-%20Итераторы.md)
 
 -[Тема 54 - Рекурсия](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Рекрсия.md)
 
