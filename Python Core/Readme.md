@@ -150,11 +150,18 @@
 
 </details>
 
--[Тема 53 - Обработка исключений](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2053%20-%20Обработка%20исключений.md)
+- [Тема 53 - Обработка исключений](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2053%20-%20Обработка%20исключений.md)
 
--[Тема 54 - Рекурсия](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Рекрсия.md)
+- [Тема 54 - Рекурсия](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Рекрсия.md)
 
--[Тема 55 - Функции +](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Функции%20+.md)
+- [Тема 55 - Функции +](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Функции%20+.md)
+
+-[Тема 55.1 - Аннотации типов](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Аннотации%20типов.md)
+
+-[Тема 55.2 - Декораторы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Декораторы.md)
+
+-[Тема 55.3 - Модуль functools](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Модуль%20functools.md)
+
 
 <details>
 <summary>Итераторы и Генераторы</summary>  
