@@ -178,6 +178,8 @@
 
 -[Тема 60 - Модуль re]()
 
+- [Атрибуты](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Атрибуты.md)
+
 <details>
 <summary>Шпаргалки</summary>  
 
