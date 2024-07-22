@@ -173,6 +173,30 @@ print(device_setup())  # Выведет "Configuring Router at 192.168.1.1:443 u
 
 
 
+
+<details>
+  <summary>Функция update_wrapper()</summary>
+
+
+
+#
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <details>
   <summary>Null</summary>
 
