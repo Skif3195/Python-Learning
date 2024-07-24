@@ -261,6 +261,56 @@ def send_an_invitation(name, email_address):
 <details>
   <summary>Функция update_wrapper()</summary>
 
+Функция update_wrapper()
+
+У partial объектов нет атрибутов  __name__ и __doc__ 
+Доступ к этим атрибутам возможен толь через атрибут func:
+
+```
+from functools import partial
+
+def multiply(a, b):
+    '''Функция перемножает два числа и возвращает вычисленное значение.'''
+    return a * b
+
+double = partial(multiply, 2)
+
+print(double.func.__name__)
+print(double.func.__doc__)
+```
+
+Выводит:
+
+```
+multiply
+Функция перемножает два числа и возвращает вычисленное значение.
+```
+
+
+С помощью функции update_wrapper() из модуля functools можно скопировать и добавить атрибуты __name__ и __doc__ из исходной функции в partial объект.
+
+
+```
+from functools import partial, update_wrapper
+
+def multiply(a, b):
+    '''Функция перемножает два числа и возвращает вычисленное значение.'''
+    return a * b
+
+double = partial(multiply, 2)
+
+update_wrapper(double, multiply)   # копируем информацию из функции multiply в partial объект double
+
+print(double.__name__)
+print(double.__doc__)
+```
+ Выводит:
+
+```
+multiply
+Функция перемножает два числа и возвращает вычисленное значение.
+```
+
 
 
 #
