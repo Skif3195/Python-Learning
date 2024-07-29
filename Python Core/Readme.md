@@ -158,9 +158,9 @@
 
 - [Тема 55.1 - Аннотации типов](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Аннотации%20типов.md)
 
--[Тема 55.2 - Декораторы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Декораторы.md)
+- [Тема 55.2 - Декораторы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Декораторы.md)
 
--[Тема 55.3 - Модуль functools](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Модуль%20functools.md)
+- [Тема 55.3 - Модуль functools](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Модуль%20functools.md)
 
 
 <details>
