@@ -162,17 +162,11 @@
 
 - [Тема 55.3 - Модуль functools](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Модуль%20functools.md)
 
-
-<details>
-<summary>Итераторы и Генераторы</summary>  
-
 -[Тема 56 - Итераторы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2056%20-%20Итераторы.md)
 
 -[Тема 57 - Генераторы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Генераторы.md)
 
 -[Тема 58 - Модуль itertools](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Модуль%20itertools.md)
-
-</details>
 
 -[Тема 59 - Регулярные вырадения](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Регулярные%20выражения.md)
 
