@@ -168,15 +168,15 @@
 
 -[Тема 56 - Итераторы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2056%20-%20Итераторы.md)
 
--[Тема 57 - Генераторы]()
+-[Тема 57 - Генераторы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Генераторы.md)
 
--[Тема 58 - Модуль itertools]()
+-[Тема 58 - Модуль itertools](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Модуль%20itertools.md)
 
 </details>
 
--[Тема 59 - Регулярные вырадения]()
+-[Тема 59 - Регулярные вырадения](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Регулярные%20выражения.md)
 
--[Тема 60 - Модуль re]()
+-[Тема 60 - Модуль re](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Модуль%20re.md)
 
 - [Атрибуты](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Атрибуты.md)
 
@@ -210,16 +210,6 @@
 - [Шпаргалка №12  - True/False объекты](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№12%20%20-%20True-False%20объекты.md)
 
 - [Шпаргалка №13 - Работа с файлами](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Шпаргалка%20№13%20-%20Работа%20с%20файлами.md)
-
--[Шпаргалка №  - ]()
-
--[Шпаргалка №  - ]()
-
--[Шпаргалка №  - ]()
-
--[Шпаргалка №  - ]()
-
--[Шпаргалка №  - ]()
 
 -[Шпаргалка №  - ]()
 
