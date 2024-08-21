@@ -162,7 +162,7 @@
 
 - [Тема 55.3 - Модуль functools](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Модуль%20functools.md)
 
--[Тема 56 - Итераторы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2056%20-%20Итераторы.md)
+- [Тема 56 - Итераторы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Тема%2056%20-%20Итераторы.md)
 
 -[Тема 57 - Генераторы](https://github.com/Skif3195/Python-Learning/blob/Guides/Python%20Core/Генераторы.md)
 
